@@ -1,0 +1,12 @@
+{
+  "name": "API Documentation",
+  "version": "0.0.1",
+  "description": "Documentation",
+  "title": "API Docs",
+  "url" : "https://127.0.0.1/api",
+  "sampleUrl": "https://127.0.0.1/api",
+  "template": {
+  	"withCompare": true,
+  	"withGenerator": true
+  }
+}

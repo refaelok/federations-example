@@ -1,0 +1,574 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Harmony\n\n\n\n\n\n\n\n    \n\n    \n\n    Harmony Boilerplate is based on Multi Model Layer, MongoDB, Express, React and NodeJS\n\n\n\n\n\n\n\nQuick Start\n\n\n\n\n\n\nQuick start\n\n\n\n\nInstall the last version of \nYeoman\n\n\n$ npm install yo -g\n\n\n\n\n\nInstall the last version of our smashing generator \ngenerator-harmony-boilerplate\n\n\n$ npm install generator-harmony-boilerplate -g\n\n\n\n\n\nGenerate and Start your project\n\n$ yo harmony-boilerplate\n\n\n\n\n\n\n\nHarmony Example Database\n\n\nPosts Example work only with mongoDB.\nIf you don't use docker, don't forget turn on your mongoDB.\n\n\n\n\nYour browser will open on: \n \nlocalhost:8080\n\n\n\n\n\n\n\nFeatures\n\n\nFeatures\n\n\n\n    \n\n        \n\n            \nflash_on\n\n            \nSpeeds up development\n\n            \nWe did most of the heavy lifting for you to provide a better experience with boilerplates \n\n        \n\n    \n\n    \n\n        \n\n            \ncode\n\n            \nBest Practice\n\n            \nPredefined scripts that let you deliver your app as fast as you can.\n\n        \n\n    \n\n    \n\n        \n\n            \nstorage\n\n            \nFlexible Databse\n\n            \nUsing multiple model layer for flexible access to databases such as MongoDB and MySQL\n\n        \n\n    \n\n\n\n\n\n\n\n\n\n    \n\n        \n\n            \ngroup\n\n            \nReal-Time Dispatching\n\n            \nAbility to dispatch actions on each client via Websockets.\n\n        \n\n    \n\n    \n\n        \n\n                \nsecurity\n\n                \nUser Authentication\n\n                \nReady-To-Use auth mechanism with high security.\n\n        \n\n    \n\n    \n\n        \n\n            \nlanguage\n\n            \nMultilingual Support\n\n            \nEasy to add and support multiple languages with \nreact-intl\n.\n\n        \n\n    \n\n\n\n\nTools\n\n\nTools", 
+            "title": "Harmony"
+        }, 
+        {
+            "location": "/#harmony", 
+            "text": "Harmony Boilerplate is based on Multi Model Layer, MongoDB, Express, React and NodeJS", 
+            "title": "Harmony"
+        }, 
+        {
+            "location": "/#quick-start", 
+            "text": "", 
+            "title": "Quick Start"
+        }, 
+        {
+            "location": "/#features", 
+            "text": "", 
+            "title": "Features"
+        }, 
+        {
+            "location": "/#tools", 
+            "text": "", 
+            "title": "Tools"
+        }, 
+        {
+            "location": "/getting-started/", 
+            "text": "Introduction\n\n\n\n\nHow to read Harmony Documentation\n\n\nHarmony Documentation built by steps to make it easy for you to get started and\nunderstand the full framework.\n\nPlease following the \nNext\n button at the bottom of the page.\n\n\n\n\nHarmony is a boilerplate to start build web application easily with focus on React Redux and NodeJS.\nHarmony suggest new feathers and improve your flexible with to decide your favorite tools,\nfor example, you can easily change your database choice from mongoDB to SQL and vis versa.\n\n\nHarmony Boilerplate focus on performance and Best Practices to build the most updated web application\n\n\nKeep read the Documentation and discover the many possibilities we offer.\n\n\nInstallation\n\n\nGenerator\n\n\nGenerate your Project\n\n$ npm install yo -g\n\n$ npm install generator-harmony-boilerplate -g\n\n$ yo harmony-boilerplate\n\n\n\n\n\nnpm\n\n\nRun for Development\n\n$ npm run start:dev\n\n\n\n\n\nRun for Production\n\n$ npm run start:prod\n\n\n\n\n\nDocker\n\n\nRun for Development\n\n$ docker-compose -f docker-compose-development.yml build\n\n$ docker-compose -f docker-compose-development.yml up\n\n\n\n\n\nRun for Production\n\n$ docker-compose build\n\n$ docker-compose up\n\n\n\n\n\n\n\nServer and Client Configuration\n\n\nYou can select your ports and url's for server, websocket and database via Config files.\n\n\nDefault ports:\n\n\nserver\n: 8080\n\n\nwebsocket\n: 3030\n\n\n\n\nHarmony Built Examples\n\n\nUnder Containers you can found 3 main examples: \n\n\n\n\nHarmony Example Database\n\n\nPosts Example work only with mongoDB.\nIf you don't use docker, don't forget turn on your mongoDB.\n\n\n\n\nUsers and Authentication\n\n\nHarmony include \nLogin\n and \nRegister\n containers.\nMost of the application today using authentication.\n\nWe made the hard work for you.\n\nThis example show you how to use Authentication API if you need it.\n\n\nPosts\n\n\nAfter Harmony installed you can watch the included Posts example.\nPosts Example introduce the most usage with Harmony feathers,\nincluding : \nwebsocket action\n, \ntranslate\n and more ...\n\nPerform \nRegister\n and \nlogin\n, now you can add remove and watch posts on the wall :).\n\n\nLocalization\n\n\nLocalization is an example to use translator in your application.\nThis example display how to change locale language in your application.\n\n\nWhat next ?\n\n\nCongratulations, you start your first Harmony web app.\nNow go on and explore how to develop your next web app easily with our feathers.", 
+            "title": "Getting started"
+        }, 
+        {
+            "location": "/getting-started/#introduction", 
+            "text": "How to read Harmony Documentation  Harmony Documentation built by steps to make it easy for you to get started and\nunderstand the full framework. \nPlease following the  Next  button at the bottom of the page.   Harmony is a boilerplate to start build web application easily with focus on React Redux and NodeJS.\nHarmony suggest new feathers and improve your flexible with to decide your favorite tools,\nfor example, you can easily change your database choice from mongoDB to SQL and vis versa.  Harmony Boilerplate focus on performance and Best Practices to build the most updated web application  Keep read the Documentation and discover the many possibilities we offer.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/getting-started/#installation", 
+            "text": "", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/getting-started/#generator", 
+            "text": "Generate your Project $ npm install yo -g\n\n$ npm install generator-harmony-boilerplate -g\n\n$ yo harmony-boilerplate", 
+            "title": "Generator"
+        }, 
+        {
+            "location": "/getting-started/#npm", 
+            "text": "Run for Development $ npm run start:dev   Run for Production $ npm run start:prod", 
+            "title": "npm"
+        }, 
+        {
+            "location": "/getting-started/#docker", 
+            "text": "Run for Development $ docker-compose -f docker-compose-development.yml build\n\n$ docker-compose -f docker-compose-development.yml up   Run for Production $ docker-compose build\n\n$ docker-compose up    Server and Client Configuration  You can select your ports and url's for server, websocket and database via Config files. \nDefault ports:  server : 8080  websocket : 3030", 
+            "title": "Docker"
+        }, 
+        {
+            "location": "/getting-started/#harmony-built-examples", 
+            "text": "Under Containers you can found 3 main examples:    Harmony Example Database  Posts Example work only with mongoDB.\nIf you don't use docker, don't forget turn on your mongoDB.", 
+            "title": "Harmony Built Examples"
+        }, 
+        {
+            "location": "/getting-started/#users-and-authentication", 
+            "text": "Harmony include  Login  and  Register  containers.\nMost of the application today using authentication. \nWe made the hard work for you. \nThis example show you how to use Authentication API if you need it.", 
+            "title": "Users and Authentication"
+        }, 
+        {
+            "location": "/getting-started/#posts", 
+            "text": "After Harmony installed you can watch the included Posts example.\nPosts Example introduce the most usage with Harmony feathers,\nincluding :  websocket action ,  translate  and more ... \nPerform  Register  and  login , now you can add remove and watch posts on the wall :).", 
+            "title": "Posts"
+        }, 
+        {
+            "location": "/getting-started/#localization", 
+            "text": "Localization is an example to use translator in your application.\nThis example display how to change locale language in your application.", 
+            "title": "Localization"
+        }, 
+        {
+            "location": "/getting-started/#what-next", 
+            "text": "Congratulations, you start your first Harmony web app.\nNow go on and explore how to develop your next web app easily with our feathers.", 
+            "title": "What next ?"
+        }, 
+        {
+            "location": "/develop-with-harmony/", 
+            "text": "Flow Data\n\n\nThe following diagram display basic redux architecture with few Harmony Features.\nYou can get more information on every feather in API docs.", 
+            "title": "Harmony Architecture"
+        }, 
+        {
+            "location": "/develop-with-harmony/#flow-data", 
+            "text": "The following diagram display basic redux architecture with few Harmony Features.\nYou can get more information on every feather in API docs.", 
+            "title": "Flow Data"
+        }, 
+        {
+            "location": "/extensions/server/server/", 
+            "text": "Server\n\n\nBased Technologies\n\n\n\n\nExpress\n\n\nAPIDoc\n\n\nMongoose\n\n\nSequelize\n\n\n\n\nServer Folder Structure\n\n\n.\n\u251c\u2500\u2500 server    \n|     \u251c\u2500\u2500 docs\n|     \u251c\u2500\u2500 src       \n|           \u251c\u2500\u2500 api\n|               \u251c\u2500\u2500 authentication\n|               \u251c\u2500\u2500 global\n|                   \u251c\u2500\u2500 responses\n|               \u251c\u2500\u2500 posts\n|                   \u251c\u2500\u2500 model\n|                   \u251c\u2500\u2500 responses\n|                   \u251c\u2500\u2500 index.js\n|                   \u251c\u2500\u2500 posts.controller.js\n|           \u251c\u2500\u2500 middleware\n|               \u251c\u2500\u2500 authenticate.js\n|               \u251c\u2500\u2500 authenticate-sequelize.js\n|           \u251c\u2500\u2500 config.js\n|     \u251c\u2500\u2500 apidoc.json  \n|     \u251c\u2500\u2500 server.js", 
+            "title": "Server Introduction"
+        }, 
+        {
+            "location": "/extensions/server/server/#server", 
+            "text": "", 
+            "title": "Server"
+        }, 
+        {
+            "location": "/extensions/server/server/#based-technologies", 
+            "text": "Express  APIDoc  Mongoose  Sequelize", 
+            "title": "Based Technologies"
+        }, 
+        {
+            "location": "/extensions/server/server/#server-folder-structure", 
+            "text": ".\n\u251c\u2500\u2500 server    \n|     \u251c\u2500\u2500 docs\n|     \u251c\u2500\u2500 src       \n|           \u251c\u2500\u2500 api\n|               \u251c\u2500\u2500 authentication\n|               \u251c\u2500\u2500 global\n|                   \u251c\u2500\u2500 responses\n|               \u251c\u2500\u2500 posts\n|                   \u251c\u2500\u2500 model\n|                   \u251c\u2500\u2500 responses\n|                   \u251c\u2500\u2500 index.js\n|                   \u251c\u2500\u2500 posts.controller.js\n|           \u251c\u2500\u2500 middleware\n|               \u251c\u2500\u2500 authenticate.js\n|               \u251c\u2500\u2500 authenticate-sequelize.js\n|           \u251c\u2500\u2500 config.js\n|     \u251c\u2500\u2500 apidoc.json  \n|     \u251c\u2500\u2500 server.js", 
+            "title": "Server Folder Structure"
+        }, 
+        {
+            "location": "/extensions/server/config/", 
+            "text": "Config\n\n\nServer configuration located on \nserver/src/config.js\n\n\nconst\n \nconfig\n \n=\n \n{\n\n    \nsql\n \n:\n \n{\n\n        \ndb\n:\nseq\n,\n\n        \nuser\n:\nroot\n,\n\n        \npass\n:\n\n    \n},\n\n    \nmongo\n:\n \n{\n\n        \ndbUrl\n:\n  \nprocess\n.\nenv\n.\nMONGO_URL\n \n||\n \nmongodb://127.0.0.1:27017/db\n\n    \n},\n\n    \nuseMongo\n:\ntrue\n,\n\n    \nuseSql\n:\n \nfalse\n,\n\n    \nJWT_SECRET\n:\nYOUR_SMASHING_JWT_SECRET\n,\n\n    \nserver\n:\n{\n\n      \nport\n:\n \nprocess\n.\nenv\n.\nPORT\n \n||\n \n8080\n\n    \n},\n\n    \nwebsocket\n:\n{\n\n        \nport\n:\n \nprocess\n.\nenv\n.\nWS_PORT\n \n||\n \n3030\n\n    \n},\n\n\n    \nallowedActions\n:\n \n[\n\n        \nactions\n.\nFETCH_POSTS\n\n    \n]\n\n\n\n\n};\n\n\n\n\n\n\n\n\nYou can choose whether to use Relational DB or Non Relational such as MongoDB, change \nuseMongo\n  \nuseSql\n according to your decisions.\n\n\nJWT_SECRET\n used for Authorization Token generation.\n\n\nwebsocket\n contain your websocket server configuration, we are using it for broadcasting actions on client side. amazing no?\n\n\nallowedActions\n comes with the websocket, its contain what are the actions that the websocket is allowed to broadcast to the client.", 
+            "title": "Configuration"
+        }, 
+        {
+            "location": "/extensions/server/config/#config", 
+            "text": "Server configuration located on  server/src/config.js  const   config   =   { \n     sql   :   { \n         db : seq , \n         user : root , \n         pass : \n     }, \n     mongo :   { \n         dbUrl :    process . env . MONGO_URL   ||   mongodb://127.0.0.1:27017/db \n     }, \n     useMongo : true , \n     useSql :   false , \n     JWT_SECRET : YOUR_SMASHING_JWT_SECRET , \n     server : { \n       port :   process . env . PORT   ||   8080 \n     }, \n     websocket : { \n         port :   process . env . WS_PORT   ||   3030 \n     }, \n\n     allowedActions :   [ \n         actions . FETCH_POSTS \n     ]  };    You can choose whether to use Relational DB or Non Relational such as MongoDB, change  useMongo    useSql  according to your decisions.  JWT_SECRET  used for Authorization Token generation.  websocket  contain your websocket server configuration, we are using it for broadcasting actions on client side. amazing no?  allowedActions  comes with the websocket, its contain what are the actions that the websocket is allowed to broadcast to the client.", 
+            "title": "Config"
+        }, 
+        {
+            "location": "/extensions/server/authentication/", 
+            "text": "Authentication\n\n\nIntroduction\n\n\nWe created a predefined authentication mechanism for your convenience.\n\n\n\n\nPOST    /users                   -\n  create \n\n\nGET     /users/me                -\n  me       \n\n\nDELETE  /users/me/logout         -\n  logout   \n\n\nPOST    /users/login             -\n  login    \n\n\nPOST    /users/broadcastAction   -\n  broadcastAction \n\n\n\n\n\n\nConfiguration\n\n\nwhen you are changing the config to work with MySQL, \nuseSql\n flag in Configuration\nyour authentication will work with your SQL db instance.\n@see \nserver/src/api/authentication/users-sequelize\n\n\n\n\nconst\n \n{\nRouter\n}\n \n=\n \nrequire\n(\nexpress\n);\n\n\n\nconst\n \ncontroller\n \n=\n \nrequire\n(\n./user.controller\n);\n\n\nconst\n \n{\nauthenticate\n}\n \n=\n \nrequire\n(\n./../../../middleware/authenticate\n);\n\n\n\nvar\n \nrouter\n \n=\n \nnew\n \nRouter\n();\n\n\n\n/**\n\n\n * @api {post} authentication/users/ Create User\n\n\n * @apiName CreateUserToken\n\n\n * @apiGroup User\n\n\n *\n\n\n * @apiParam {String} email .\n\n\n * @apiParam {String} password .\n\n\n *\n\n\n * @apiSuccess {Object} - set header x-auth with generated token.\n\n\n */\n\n\nrouter\n.\npost\n(\n/\n,\n \ncontroller\n.\ncreate\n);\n\n\n/**\n\n\n * @api {get} /authentication/users/me Get User\n\n\n * @apiName GetUser\n\n\n * @apiGroup User\n\n\n *\n\n\n * @apiSuccess {Object} - get current user.\n\n\n */\n\n\nrouter\n.\nget\n(\n/me\n,\n \nauthenticate\n,\n \ncontroller\n.\nme\n);\n\n\n/**\n\n\n * @api {delete} /authentication/users/me/token Logout\n\n\n * @apiName LogoutUser\n\n\n * @apiGroup User\n\n\n *\n\n\n * @apiSuccess {Object} - status 200.\n\n\n */\n\n\nrouter\n.\ndelete\n(\n/me/token\n,\n \nauthenticate\n,\n \ncontroller\n.\nlogout\n);\n\n\n/**\n\n\n * @api {post} /authentication/users/login Login\n\n\n * @apiName LoginUser\n\n\n * @apiGroup User\n\n\n\n * @apiParam {String} email .\n\n\n * @apiParam {String} password .\n\n\n\n * @apiSuccess {Object} - set header x-auth with generated token.\n\n\n */\n\n\nrouter\n.\npost\n(\n/login\n,\n \ncontroller\n.\nlogin\n);\n\n\n/**\n\n\n * @api {post} /authentication/users/broadcastAction Broadcast Action\n\n\n * @apiName BroadcastAction\n\n\n * @apiGroup User\n\n\n\n * @apiParam {Object} action with type and payload.\n\n\n\n * @apiSuccess {Object} - broadcast to thethe action to all.\n\n\n */\n\n\nrouter\n.\npost\n(\n/broadcastAction\n,\n \ncontroller\n.\nbroadcastAction\n);\n\n\n\n\n\nmodule\n.\nexports\n \n=\n \nrouter\n;\n\n\n\n\n\n\nAuthenticate Your API\n\n\n\n\nMiddleware\n\n\nYou can use our \nauthenticate\n middleware to your API by importing it from \nmiddleware\n folder.\n\n\nThe middleware contain a function that deal with the current \nModel\n according to your configuration ( Sequelize  Mongoose )\n\n\n\n\nconst\n \nUser\n \n=\n \nrequire\n(\n./../api/authentication/users-mongo/user-model\n);\n\n\n\nvar\n \nauthenticate\n \n=\n \n(\nreq\n,\n \nres\n,\n \nnext\n)\n \n=\n \n{\n\n    \nlet\n \ntoken\n \n=\n \nreq\n.\nheader\n(\nAuthorization\n);\n\n    \nUser\n.\nfindByToken\n(\ntoken\n).\nthen\n((\nuser\n)\n \n=\n \n{\n\n\n        \nif\n(\n!\nuser\n)\n \n{\n\n            \nreturn\n \nnew\n \nPromise\n((\nresolve\n,\n \nreject\n)\n \n=\n \n{\n\n                \nreject\n();\n\n            \n});\n\n        \n}\n\n\n        \nreq\n.\nuser\n \n=\n \nuser\n;\n\n        \nreq\n.\ntoken\n \n=\n \ntoken\n;\n\n        \nnext\n();\n\n\n    \n}).\ncatch\n((\ne\n)\n \n=\n \n{\n\n        \nconsole\n.\nlog\n(\ne\n);\n\n        \nres\n.\nstatus\n(\n401\n).\nsend\n();\n\n\n    \n});\n\n\n};\n\n\n\nmodule\n.\nexports\n \n=\n \n{\nauthenticate\n}\n\n\n\n\n\n\nUsage\n\n\nconst\n \n{\nRouter\n}\n \n=\n \nrequire\n(\nexpress\n);\n\n\nconst\n \n{\nauthenticate\n}\n \n=\n \nrequire\n(\n./../../middleware/authenticate\n);\n\n\n\nconst\n \ncontroller\n \n=\n \nrequire\n(\n./posts.controller\n);\n\n\n\nvar\n \nrouter\n \n=\n \nnew\n \nRouter\n();\n\n\n\n/**\n\n\n * @api {post} /posts Create Post\n\n\n * @apiName CreatePosts\n\n\n * @apiGroup Posts\n\n\n *\n\n\n * @apiParam {String} name .\n\n\n *\n\n\n * @apiSuccess {Object} - contain message and resource id.\n\n\n */\n\n\nrouter\n.\npost\n(\n/\n,\n \nauthenticate\n,\ncontroller\n.\ncreate\n);", 
+            "title": "Authentication"
+        }, 
+        {
+            "location": "/extensions/server/authentication/#authentication", 
+            "text": "", 
+            "title": "Authentication"
+        }, 
+        {
+            "location": "/extensions/server/authentication/#introduction", 
+            "text": "We created a predefined authentication mechanism for your convenience.   POST    /users                   -   create   GET     /users/me                -   me         DELETE  /users/me/logout         -   logout     POST    /users/login             -   login      POST    /users/broadcastAction   -   broadcastAction     Configuration  when you are changing the config to work with MySQL,  useSql  flag in Configuration\nyour authentication will work with your SQL db instance.\n@see  server/src/api/authentication/users-sequelize   const   { Router }   =   require ( express );  const   controller   =   require ( ./user.controller );  const   { authenticate }   =   require ( ./../../../middleware/authenticate );  var   router   =   new   Router ();  /**   * @api {post} authentication/users/ Create User   * @apiName CreateUserToken   * @apiGroup User   *   * @apiParam {String} email .   * @apiParam {String} password .   *   * @apiSuccess {Object} - set header x-auth with generated token.   */  router . post ( / ,   controller . create );  /**   * @api {get} /authentication/users/me Get User   * @apiName GetUser   * @apiGroup User   *   * @apiSuccess {Object} - get current user.   */  router . get ( /me ,   authenticate ,   controller . me );  /**   * @api {delete} /authentication/users/me/token Logout   * @apiName LogoutUser   * @apiGroup User   *   * @apiSuccess {Object} - status 200.   */  router . delete ( /me/token ,   authenticate ,   controller . logout );  /**   * @api {post} /authentication/users/login Login   * @apiName LoginUser   * @apiGroup User   * @apiParam {String} email .   * @apiParam {String} password .   * @apiSuccess {Object} - set header x-auth with generated token.   */  router . post ( /login ,   controller . login );  /**   * @api {post} /authentication/users/broadcastAction Broadcast Action   * @apiName BroadcastAction   * @apiGroup User   * @apiParam {Object} action with type and payload.   * @apiSuccess {Object} - broadcast to thethe action to all.   */  router . post ( /broadcastAction ,   controller . broadcastAction );  module . exports   =   router ;", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/extensions/server/authentication/#authenticate-your-api", 
+            "text": "Middleware  You can use our  authenticate  middleware to your API by importing it from  middleware  folder.  The middleware contain a function that deal with the current  Model  according to your configuration ( Sequelize  Mongoose )   const   User   =   require ( ./../api/authentication/users-mongo/user-model );  var   authenticate   =   ( req ,   res ,   next )   =   { \n     let   token   =   req . header ( Authorization ); \n     User . findByToken ( token ). then (( user )   =   { \n\n         if ( ! user )   { \n             return   new   Promise (( resolve ,   reject )   =   { \n                 reject (); \n             }); \n         } \n\n         req . user   =   user ; \n         req . token   =   token ; \n         next (); \n\n     }). catch (( e )   =   { \n         console . log ( e ); \n         res . status ( 401 ). send (); \n\n     });  };  module . exports   =   { authenticate }", 
+            "title": "Authenticate Your API"
+        }, 
+        {
+            "location": "/extensions/server/authentication/#usage", 
+            "text": "const   { Router }   =   require ( express );  const   { authenticate }   =   require ( ./../../middleware/authenticate );  const   controller   =   require ( ./posts.controller );  var   router   =   new   Router ();  /**   * @api {post} /posts Create Post   * @apiName CreatePosts   * @apiGroup Posts   *   * @apiParam {String} name .   *   * @apiSuccess {Object} - contain message and resource id.   */  router . post ( / ,   authenticate , controller . create );", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/extensions/server/websocket/", 
+            "text": "Websocket\n\n\nWe created two methods inside the websocket server that you can use.\n\nconst\n \nwss\n \n=\n \nnew\n \nWebSocket\n.\nServer\n({\n \nport\n:\n \nconfig\n.\nwebsocket\n.\nport\n \n});\n\n\n\nwss\n.\nbroadcastAction\n \n=\n \nfunction\n(\nrequest\n){\n\n\n    \ntry\n \n{\n\n        \nvar\n \nresult\n \n=\n \n_\n.\nfind\n(\nconfig\n.\nallowedActions\n,\n \nfunction\n \n(\no\n)\n \n{\n\n            \nreturn\n \no\n \n===\n \nrequest\n.\naction\n.\ntype\n\n        \n});\n\n\n        \nif\n \n(\n!\nresult\n)\n \n{\n\n            \nreturn\n;\n\n        \n}\n\n        \nwss\n.\nbroadcast\n({\n\n            \nWS_ACTION\n:\n \ntrue\n,\n\n            \ntoken\n:\n \nrequest\n.\ntoken\n \n||\n \nnull\n,\n\n            \naction\n:\n \nrequest\n.\naction\n\n        \n});\n\n    \n}\n\n    \ncatch\n \n(\ne\n)\n \n{\n\n        \nconsole\n.\nlog\n(\ne\n);\n\n    \n}\n\n\n\n};\n\n\n\nwss\n.\nbroadcast\n \n=\n \nfunction\n \nbroadcast\n(\ndata\n)\n \n{\n\n\n  \nwss\n.\nclients\n.\nforEach\n(\nfunction\n \neach\n(\nclient\n)\n \n{\n\n\n    \nif\n \n(\nclient\n.\nreadyState\n \n===\n \nWebSocket\n.\nOPEN\n)\n \n{\n\n      \nclient\n.\nsend\n(\nJSON\n.\nstringify\n(\ndata\n));\n\n    \n}\n\n  \n});\n\n\n};\n\n\n\n\n\n\nWebsocket Actions\n\n\n\n\nSECURE WARNING\n - You must to declare your \nallowed actions\n in server config.\n\n\nIf the action is not allowed on the server, the action will not be executed !\n\n\n\n\n\n\nTo add allowed actions for broadcasting go to \nconfig\n and edit allowedActions \n\n allowedActions: [\n        actions.FETCH_POSTS,\n        ...\n    ]\n\n\n\nthere is reference in the configuration file to the client actions.\n\nconst actions = require(\n../../client/src/actions\n);\n\n\n\nharmony let the client to invoke actions on each client on the system by using the websocket instance on the server.\nfor example: lets say User A delete item from the database and want that all the users will FETCH the items again.\n\n\n\n\nby invoking the following API - \nPOST    /users/broadcastAction   -\n  broadcastAction\n\nwith the this payload : \n\n{type: ActionTypes.FETCH_POSTS, payload: null}\n\n\n\nthe websocket instance will broadcast to all users this action.\nIn addition, there is option to invoke the broadcasting service from each API.\n\n\nWebsocket\n\n\nYou can use the websocket service to pass messages between the clients or from server to clients by invoking:\n\nexports\n.\ncreate\n \n=\n \nfunction\n(\nreq\n,\n \nres\n)\n \n{\n\n    \nlet\n \nModelInstance\n \n=\n \nnew\n \nMODEL_SERVICE\n();\n\n    \n...\n\n    \nreq\n.\napp\n.\nget\n(\nwss\n).\nbroadcast\n(\nYOUR_MESSAGE\n);\n\n\n\n\n\n\n\n\nFor more information check how you deal with the websocket from the client side", 
+            "title": "Websocket"
+        }, 
+        {
+            "location": "/extensions/server/websocket/#websocket", 
+            "text": "We created two methods inside the websocket server that you can use. const   wss   =   new   WebSocket . Server ({   port :   config . websocket . port   });  wss . broadcastAction   =   function ( request ){ \n\n     try   { \n         var   result   =   _ . find ( config . allowedActions ,   function   ( o )   { \n             return   o   ===   request . action . type \n         }); \n\n         if   ( ! result )   { \n             return ; \n         } \n         wss . broadcast ({ \n             WS_ACTION :   true , \n             token :   request . token   ||   null , \n             action :   request . action \n         }); \n     } \n     catch   ( e )   { \n         console . log ( e ); \n     }  };  wss . broadcast   =   function   broadcast ( data )   { \n\n   wss . clients . forEach ( function   each ( client )   { \n\n     if   ( client . readyState   ===   WebSocket . OPEN )   { \n       client . send ( JSON . stringify ( data )); \n     } \n   });  };", 
+            "title": "Websocket"
+        }, 
+        {
+            "location": "/extensions/server/websocket/#websocket-actions", 
+            "text": "SECURE WARNING  - You must to declare your  allowed actions  in server config.  If the action is not allowed on the server, the action will not be executed !    To add allowed actions for broadcasting go to  config  and edit allowedActions   allowedActions: [\n        actions.FETCH_POSTS,\n        ...\n    ] \n\nthere is reference in the configuration file to the client actions. const actions = require( ../../client/src/actions ); \n\nharmony let the client to invoke actions on each client on the system by using the websocket instance on the server.\nfor example: lets say User A delete item from the database and want that all the users will FETCH the items again.   by invoking the following API -  POST    /users/broadcastAction   -   broadcastAction \nwith the this payload :  {type: ActionTypes.FETCH_POSTS, payload: null} \n\nthe websocket instance will broadcast to all users this action.\nIn addition, there is option to invoke the broadcasting service from each API.", 
+            "title": "Websocket Actions"
+        }, 
+        {
+            "location": "/extensions/server/websocket/#websocket_1", 
+            "text": "You can use the websocket service to pass messages between the clients or from server to clients by invoking: exports . create   =   function ( req ,   res )   { \n     let   ModelInstance   =   new   MODEL_SERVICE (); \n     ... \n     req . app . get ( wss ). broadcast ( YOUR_MESSAGE );     For more information check how you deal with the websocket from the client side", 
+            "title": "Websocket"
+        }, 
+        {
+            "location": "/extensions/server/generate_new_api/", 
+            "text": "Generate New API\n\n\nA proper API consist the following:\n\n\n\n\nModel ( Using Mongoose )\n\n\nController ( Holding the main functions like create, update, delete, get, etc..)\n\n\nResponses ( JS file that contain responses relate to the current API )\n\n\nroutes ( Mapping the routes to the Controller )\n\n\n\n\nCreating API\n\n\nInorder to create your API, We suggest to use our CLI script\n\n\ngulp createApi --name \nYOUR_API_NAME\n\n\nNote - \nIf you are going to use MySQL  SQL  PostgreSQL  MSSQL you should add this:\n\n--apiType sql\n \notherwise it will use mongodb\n\n\nIt will generate under \nserver/src/api\n folder with the files of your api :\n\n\nUsage\n\n\ngulp createApi --name post\n\n\nResult\n\n\n.\n\u251c\u2500\u2500 post         \n|     \u251c\u2500\u2500 post.controller.js                    \n|     \u251c\u2500\u2500 index.js   \n|     \u251c\u2500\u2500 model   \n|           \u251c\u2500\u2500 post.js \n|     \u251c\u2500\u2500 responses\n|           \u251c\u2500\u2500 index.js\n\n\n\n\n\nTemplating\n\n\nIf you want to create your own templates you will need to add the template file under \ngenerator/templates/server\n\nand under \ncreateApi\n task in the \ngulpfile.js\n on the root folder do the following :\n\n\ngulp\n.\ntask\n(\ncreateApi\n,\n \n()\n \n=\n \n{\n\n    \nlet\n \napiName\n \n=\n \ngetArg\n(\nname\n);\n\n    \nif\n(\n!\nvalidateName\n(\napiName\n,\n \n--name\n,\n \nfalse\n))\n \nreturn\n;\n\n    \nvar\n \nUPPERCASE_MODEL_NAME\n \n=\n \napiName\n.\ntoString\n().\ntoUpperCase\n();\n\n    \nvar\n \nCapitalLetterModelName\n \n=\n \ncapitalize\n(\napiName\n);\n\n    \ncreateTemplate\n(\n\n        \n./generator/templates/server/api-controller-template\n,\n\n        \nserver/src/api/\n+\napiName\n+\n/\n+\napiName\n+\n.controller.js\n,\n\n        \n{\n\n         \nname\n:\n \napiName\n,\n\n         \nupperCaseModelName\n \n:\n \nUPPERCASE_MODEL_NAME\n,\n\n         \ncapitalLetterModelName\n:\n \nCapitalLetterModelName\n\n        \n}\n\n    \n);\n\n\n    \ncreateTemplate\n(\n\n        \n./generator/templates/server/model-template\n,\n\n        \nserver/src/api/\n+\napiName\n+\n/model/\n+\napiName\n+\n.js\n,\n\n        \n{\n\n            \ncapitalLetterModelName\n:\n \nCapitalLetterModelName\n\n        \n}\n\n    \n);\n\n\n    \ncreateTemplate\n(\n\n        \n./generator/templates/server/responses-template\n,\n\n        \nserver/src/api/\n+\napiName\n+\n/responses/index.js\n,\n\n        \n{\n\n         \ncapitalLetterModelName\n:\n \nCapitalLetterModelName\n,\n\n         \nupperCaseModelName\n \n:\n \nUPPERCASE_MODEL_NAME\n\n        \n}\n\n    \n);\n\n\n    \ncreateTemplate\n(\n\n        \n./generator/templates/server/index-template\n,\n\n        \nserver/src/api/\n+\napiName\n+\n/index.js\n,\n\n        \n{\n\n         \nname\n:\n \napiName\n,\n\n         \ncapitalLetterModelName\n:\n \nCapitalLetterModelName\n\n        \n}\n\n    \n);\n\n\n    \n/***** YOUR ADDITIONS *****/\n\n    \ncreateTemplate\n(\n\n        \n./generator/templates/server/YOUR_TEMPLATE_FILE_NAME\n,\n\n        \nserver/src/api/\n+\napiName\n+\n/DESTINATION_FILE_NAME\n,\n\n        \n{\n\n         \nname\n:\n \napiName\n,\n\n         \ncapitalLetterModelName\n:\n \nCapitalLetterModelName\n\n        \n}\n\n    \n);\n\n\n    \nreplaceText\n(\n\n        \n./server/src/routes/index.js\n,\n\n        \n./server/src/routes/\n,\n\n        \n// LASTLINE\n,\n\n        \napp.use(\n/\n+\napiName\n+\n, require(\n../api/\n+\napiName\n+\n));\\r\\n// LASTLINE\n\n    \n);\n\n\n\n});", 
+            "title": "Generate New API"
+        }, 
+        {
+            "location": "/extensions/server/generate_new_api/#generate-new-api", 
+            "text": "A proper API consist the following:   Model ( Using Mongoose )  Controller ( Holding the main functions like create, update, delete, get, etc..)  Responses ( JS file that contain responses relate to the current API )  routes ( Mapping the routes to the Controller )", 
+            "title": "Generate New API"
+        }, 
+        {
+            "location": "/extensions/server/generate_new_api/#creating-api", 
+            "text": "Inorder to create your API, We suggest to use our CLI script  gulp createApi --name  YOUR_API_NAME  Note - \nIf you are going to use MySQL  SQL  PostgreSQL  MSSQL you should add this: --apiType sql  \notherwise it will use mongodb  It will generate under  server/src/api  folder with the files of your api :", 
+            "title": "Creating API"
+        }, 
+        {
+            "location": "/extensions/server/generate_new_api/#usage", 
+            "text": "gulp createApi --name post", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/extensions/server/generate_new_api/#result", 
+            "text": ".\n\u251c\u2500\u2500 post         \n|     \u251c\u2500\u2500 post.controller.js                    \n|     \u251c\u2500\u2500 index.js   \n|     \u251c\u2500\u2500 model   \n|           \u251c\u2500\u2500 post.js \n|     \u251c\u2500\u2500 responses\n|           \u251c\u2500\u2500 index.js", 
+            "title": "Result"
+        }, 
+        {
+            "location": "/extensions/server/generate_new_api/#templating", 
+            "text": "If you want to create your own templates you will need to add the template file under  generator/templates/server \nand under  createApi  task in the  gulpfile.js  on the root folder do the following :  gulp . task ( createApi ,   ()   =   { \n     let   apiName   =   getArg ( name ); \n     if ( ! validateName ( apiName ,   --name ,   false ))   return ; \n     var   UPPERCASE_MODEL_NAME   =   apiName . toString (). toUpperCase (); \n     var   CapitalLetterModelName   =   capitalize ( apiName ); \n     createTemplate ( \n         ./generator/templates/server/api-controller-template , \n         server/src/api/ + apiName + / + apiName + .controller.js , \n         { \n          name :   apiName , \n          upperCaseModelName   :   UPPERCASE_MODEL_NAME , \n          capitalLetterModelName :   CapitalLetterModelName \n         } \n     ); \n\n     createTemplate ( \n         ./generator/templates/server/model-template , \n         server/src/api/ + apiName + /model/ + apiName + .js , \n         { \n             capitalLetterModelName :   CapitalLetterModelName \n         } \n     ); \n\n     createTemplate ( \n         ./generator/templates/server/responses-template , \n         server/src/api/ + apiName + /responses/index.js , \n         { \n          capitalLetterModelName :   CapitalLetterModelName , \n          upperCaseModelName   :   UPPERCASE_MODEL_NAME \n         } \n     ); \n\n     createTemplate ( \n         ./generator/templates/server/index-template , \n         server/src/api/ + apiName + /index.js , \n         { \n          name :   apiName , \n          capitalLetterModelName :   CapitalLetterModelName \n         } \n     ); \n\n     /***** YOUR ADDITIONS *****/ \n     createTemplate ( \n         ./generator/templates/server/YOUR_TEMPLATE_FILE_NAME , \n         server/src/api/ + apiName + /DESTINATION_FILE_NAME , \n         { \n          name :   apiName , \n          capitalLetterModelName :   CapitalLetterModelName \n         } \n     ); \n\n     replaceText ( \n         ./server/src/routes/index.js , \n         ./server/src/routes/ , \n         // LASTLINE , \n         app.use( / + apiName + , require( ../api/ + apiName + ));\\r\\n// LASTLINE \n     );  });", 
+            "title": "Templating"
+        }, 
+        {
+            "location": "/extensions/client/client/", 
+            "text": "Client\n\n\nClient Folder include all the code for the client side.\nFor Client we using \nreeact\n and \nredux\n architecture. \n\n\nBased Technologies\n\n\nReact\n\n\n\n\nreact\n\n\nreact-router\n\n\n\n\nRedux\n\n\n\n\nredux\n\n\nredux-saga\n\n\nredux-promise\n\n\nredux-form\n\n\nredux-form-field\n\n\n\n\nWebsocket\n\n\n\n\nreact-websocket\n\n\nws-reconnect-js\n\n\n\n\nUtils\n\n\n\n\nimmutableJS\n\n\naxios\n\n\n\n\nClient Folder Structure\n\n\n.\n\u251c\u2500\u2500 client    \n|     \u251c\u2500\u2500 dist\n|     \u251c\u2500\u2500 src       \n|           \u251c\u2500\u2500 base\n|               \u251c\u2500\u2500 api\n|               \u251c\u2500\u2500 features\n|               \u251c\u2500\u2500 utils\n|           \u251c\u2500\u2500 components\n|               \u251c\u2500\u2500 core\n|           \u251c\u2500\u2500 containers\n|           \u251c\u2500\u2500 redux\n|           \u251c\u2500\u2500 requests\n|           \u251c\u2500\u2500 sagas\n|           \u251c\u2500\u2500 config.js\n|           \u251c\u2500\u2500 index.js\n|           \u251c\u2500\u2500 routes.js\n|     \u251c\u2500\u2500 style  \n|     \u251c\u2500\u2500 test   \n|     \u251c\u2500\u2500 index.js", 
+            "title": "Client Introduction"
+        }, 
+        {
+            "location": "/extensions/client/client/#client", 
+            "text": "Client Folder include all the code for the client side.\nFor Client we using  reeact  and  redux  architecture.", 
+            "title": "Client"
+        }, 
+        {
+            "location": "/extensions/client/client/#based-technologies", 
+            "text": "", 
+            "title": "Based Technologies"
+        }, 
+        {
+            "location": "/extensions/client/client/#react", 
+            "text": "react  react-router", 
+            "title": "React"
+        }, 
+        {
+            "location": "/extensions/client/client/#redux", 
+            "text": "redux  redux-saga  redux-promise  redux-form  redux-form-field", 
+            "title": "Redux"
+        }, 
+        {
+            "location": "/extensions/client/client/#websocket", 
+            "text": "react-websocket  ws-reconnect-js", 
+            "title": "Websocket"
+        }, 
+        {
+            "location": "/extensions/client/client/#utils", 
+            "text": "immutableJS  axios", 
+            "title": "Utils"
+        }, 
+        {
+            "location": "/extensions/client/client/#client-folder-structure", 
+            "text": ".\n\u251c\u2500\u2500 client    \n|     \u251c\u2500\u2500 dist\n|     \u251c\u2500\u2500 src       \n|           \u251c\u2500\u2500 base\n|               \u251c\u2500\u2500 api\n|               \u251c\u2500\u2500 features\n|               \u251c\u2500\u2500 utils\n|           \u251c\u2500\u2500 components\n|               \u251c\u2500\u2500 core\n|           \u251c\u2500\u2500 containers\n|           \u251c\u2500\u2500 redux\n|           \u251c\u2500\u2500 requests\n|           \u251c\u2500\u2500 sagas\n|           \u251c\u2500\u2500 config.js\n|           \u251c\u2500\u2500 index.js\n|           \u251c\u2500\u2500 routes.js\n|     \u251c\u2500\u2500 style  \n|     \u251c\u2500\u2500 test   \n|     \u251c\u2500\u2500 index.js", 
+            "title": "Client Folder Structure"
+        }, 
+        {
+            "location": "/extensions/client/config/", 
+            "text": "Config\n\n\nClient configuration located on \nclient/src/config.js\n\n\nfunction\n \ninitConfig\n()\n \n{\n\n\n    \nlet\n \nconfig\n \n=\n \n{\n \n};\n\n\n    \nif\n \n(\nprocess\n.\nenv\n.\nNODE_ENV\n \n===\n \ndevelopment\n)\n \n{\n\n\n        \n/* ---------- Config Development --------- */\n\n        \nconfig\n \n=\n \n{\n\n            \nROOT_SERVRE_URL\n:\n \nhttp://localhost:8080/api\n,\n\n            \nROOT_WS_URL\n:\n \nws://localhost:3030\n\n        \n};\n\n\n    \n}\n\n\n    \nelse\n \nif\n \n(\nprocess\n.\nenv\n.\nNODE_ENV\n \n===\n \nproduction\n)\n \n{\n\n\n        \n/* ---------- Config Production --------- */\n\n        \nconfig\n \n=\n \n{\n\n            \nROOT_SERVRE_URL\n:\n \nhttp://localhost:8080/api\n,\n\n            \nROOT_WS_URL\n:\n \nws://localhost:3030\n\n        \n};\n\n\n    \n}\n\n\n    \nreturn\n \nconfig\n;\n\n\n\n}\n\n\n\nexport\n \nconst\n \nconfig\n \n=\n \ninitConfig\n();\n\n\n\n\n\n\nDefine your root server url and root websocket url.\nThese variables are used in app.", 
+            "title": "Configuration"
+        }, 
+        {
+            "location": "/extensions/client/config/#config", 
+            "text": "Client configuration located on  client/src/config.js  function   initConfig ()   { \n\n     let   config   =   {   }; \n\n     if   ( process . env . NODE_ENV   ===   development )   { \n\n         /* ---------- Config Development --------- */ \n         config   =   { \n             ROOT_SERVRE_URL :   http://localhost:8080/api , \n             ROOT_WS_URL :   ws://localhost:3030 \n         }; \n\n     } \n\n     else   if   ( process . env . NODE_ENV   ===   production )   { \n\n         /* ---------- Config Production --------- */ \n         config   =   { \n             ROOT_SERVRE_URL :   http://localhost:8080/api , \n             ROOT_WS_URL :   ws://localhost:3030 \n         }; \n\n     } \n\n     return   config ;  }  export   const   config   =   initConfig ();   Define your root server url and root websocket url.\nThese variables are used in app.", 
+            "title": "Config"
+        }, 
+        {
+            "location": "/extensions/client/base/", 
+            "text": "Base Folder\n\n\nBase Folder include the core files.\n\nYou can see that as Harmony framework.\n\n\n\n\nCustomization\n\n\nGenerally yuou should not change the files in this folder\n\nunless you know wha tis going there and you want to custom it.\nSee more \nContributing\n section if you want to improve Harmony Base Folder :).\n\n\n\n\nInside \nbase\n you can found 3 bases folders:\n\n\nfeatures\n\n\nFeatures include all the core features that use in your application.\n\n\napi\n\n\nExport the \nrequests\n class for easy api calls and usage with websocket actions.\n\nRead more on \nRequests\n Section.\n\n\nutils\n\n\nInclude all the utils functions, classes and definitions for the application.", 
+            "title": "Base Folder"
+        }, 
+        {
+            "location": "/extensions/client/base/#base-folder", 
+            "text": "Base Folder include the core files. \nYou can see that as Harmony framework.   Customization  Generally yuou should not change the files in this folder \nunless you know wha tis going there and you want to custom it.\nSee more  Contributing  section if you want to improve Harmony Base Folder :).   Inside  base  you can found 3 bases folders:  features  Features include all the core features that use in your application.  api  Export the  requests  class for easy api calls and usage with websocket actions. \nRead more on  Requests  Section.  utils  Include all the utils functions, classes and definitions for the application.", 
+            "title": "Base Folder"
+        }, 
+        {
+            "location": "/extensions/client/requests/", 
+            "text": "Requests \n Websocket\n\n\nRequests\n\n\nLocation\n: \nclient/base/api/requests.js\n \n\n\nAPI Requests is one of the features coming from Harmony.\n\n\nRequests class include the following methods:\n\n\ncall\n\n\nCall to API\n\n\nParameters:\n\n\nconfig - axios config json.\n\n\nUsage\n\n\nimport from \nclient/base/api/requests.js\n\n\nrequest\n.\ncall\n({\n\n    \nmethod\n:\n \npost\n,\n\n    \nbaseURL\n:\n \nbaseURL\n,\n\n    \nurl\n:\n \nusers/login\n,\n\n    \ndata\n:\n \ndata\n\n\n});\n\n\n\n\n\n\nbroadcastAction\n\n\nInvoke action via websocket to every online client.\n\n\nParameters:\n\n\naction - Action that you want to execute.\n\n\nUsage\n\n\nimport from \nclient/base/api/requests.js\n\n\nimport\n \n{\nUserTypes\n}\n \nfrom\n \n../redux/user\n;\n\n\nrequests\n.\nbroadcastAction\n({\ntype\n:\n \nUserTypes\n.\nFETCH_POSTS\n,\n \npayload\n:\n \nnull\n});\n\n\n\n\n\n\n\n\nSecured Actions\n\n\nHarmony know about the risk to dispatch actions via client to aonther clients. \n\nTherefore, if you want to disptach action with websocket actions, you need to allow the action in server.\n\nRead more about websocket in server docomentation.\n\n\n\n\n\n\nStart Websocket Action\n\n\nin \nclient/indexjs\n you can find the starter to websocket action.\n\n\nconst\n \nwsAction\n \n=\n \nnew\n \nWSAction\n(\nstore\n,\n \nconfig\n.\nROOT_WS_URL\n,\n \n{\n\n    \nretryCount\n:\n3\n,\n\n    \nreconnectInterval\n:\n \n3\n\n\n});\n\n\nwsAction\n.\nstart\n();\n\n\n\n\nthis start to listien to incomings actions from aonther clients.\n\n\n\n\nRequests Definitions File\n\n\nLocation\n: \nclient/requests/index.js\n\n\nIn requests file we define all the requests calls and use it in sagas.\nHarmony prefer to use one file to export requests definitions for Best Practice.\n\n\nExample Code\n\n\ncreateUser\n:\n \n(\ndata\n)\n \n=\n \n{\n\n    \nreturn\n \nrequest\n.\ncall\n({\n\n        \nmethod\n:\n \npost\n,\n\n        \nbaseURL\n:\n \nbaseURL\n,\n\n        \nurl\n:\n \n/users\n,\n\n        \ndata\n:\n \ndata\n\n    \n});\n\n\n}", 
+            "title": "Requests"
+        }, 
+        {
+            "location": "/extensions/client/requests/#requests-websocket", 
+            "text": "", 
+            "title": "Requests &amp; Websocket"
+        }, 
+        {
+            "location": "/extensions/client/requests/#requests", 
+            "text": "Location :  client/base/api/requests.js    API Requests is one of the features coming from Harmony.  Requests class include the following methods:", 
+            "title": "Requests"
+        }, 
+        {
+            "location": "/extensions/client/requests/#call", 
+            "text": "Call to API  Parameters:  config - axios config json.  Usage  import from  client/base/api/requests.js  request . call ({ \n     method :   post , \n     baseURL :   baseURL , \n     url :   users/login , \n     data :   data  });", 
+            "title": "call"
+        }, 
+        {
+            "location": "/extensions/client/requests/#broadcastaction", 
+            "text": "Invoke action via websocket to every online client.  Parameters:  action - Action that you want to execute.  Usage  import from  client/base/api/requests.js  import   { UserTypes }   from   ../redux/user ;  requests . broadcastAction ({ type :   UserTypes . FETCH_POSTS ,   payload :   null });     Secured Actions  Harmony know about the risk to dispatch actions via client to aonther clients.  \nTherefore, if you want to disptach action with websocket actions, you need to allow the action in server. \nRead more about websocket in server docomentation.    Start Websocket Action  in  client/indexjs  you can find the starter to websocket action.  const   wsAction   =   new   WSAction ( store ,   config . ROOT_WS_URL ,   { \n     retryCount : 3 , \n     reconnectInterval :   3  });  wsAction . start ();  \n\nthis start to listien to incomings actions from aonther clients.", 
+            "title": "broadcastAction"
+        }, 
+        {
+            "location": "/extensions/client/requests/#requests-definitions-file", 
+            "text": "Location :  client/requests/index.js  In requests file we define all the requests calls and use it in sagas.\nHarmony prefer to use one file to export requests definitions for Best Practice.", 
+            "title": "Requests Definitions File"
+        }, 
+        {
+            "location": "/extensions/client/requests/#example-code", 
+            "text": "createUser :   ( data )   =   { \n     return   request . call ({ \n         method :   post , \n         baseURL :   baseURL , \n         url :   /users , \n         data :   data \n     });  }", 
+            "title": "Example Code"
+        }, 
+        {
+            "location": "/extensions/client/multilingual/", 
+            "text": "Multilingual\n\n\ni18n give you easy way to support with languages and Encapsulate all you titles and static strings in your application\n\nto one place and easily to rename or change it.\n\n\nIf you are not familiar with \ni18n\n and you are not sure what is it please read :\n\n\ni18n\n.\n\n\nIn Our boilerplate you can easly add and use i18n with scripts or manually.\n\nTo use i18n you need to crate a new Locale (if it is not english) and new i18n folder and file to your\n\ndesire container.\n\n\nIn \nposts.18n.en.js\n (for example) file you can to define your strings for the container.\n\n\nThe following code show the \nposts.18n.en.js\n inside the container, at \n/i18n/\n\n\nExample Code \nposts.18n.en.js\n\n\nimport\n \n{\n \ndefineMessages\n \n}\n \nfrom\n \nreact-intl\n;\n\n\n\nconst\n \nmessages\n \n=\n \ndefineMessages\n({\n\n    \npostsTitle\n:\n \n{\n\n        \nid\n:\n \nposts.title\n,\n \n// Optional\n\n        \ndefaultMessage\n:\n \nPosts\n,\n \n// Mandatory\n\n        \ndescription\n:\n \nPosts page title\n,\n \n// Optional\n\n    \n},\n\n    \naddPost\n:\n \n{\n\n        \nid\n:\n \nposts.addPostHeader\n,\n\n        \ndefaultMessage\n:\n \nAdd a post\n,\n\n        \ndescription\n:\n \nadd post button header\n,\n\n    \n}\n\n\n});\n\n\n\nexport\n \ndefault\n \nmessages\n;\n\n\n\n\n\n\nThe following code show you how to use the messages inside your container.\n\n\nExample Code \ncontainer\n\n\nrender\n \n()\n \n{\n\n    \nreturn\n \n(\n\n        \ndiv\n\n            \ndiv\n \nclassName\n=\ntext-xs-right\n\n                \nLink\n \nto\n=\n{\nPOSTS_NEW\n}\n \nclassName\n=\nbtn btn-primary\n \n\n                    \n{\nthis\n.\nT\n(\naddPost\n)}\n\n                \n/Link\n\n            \n/div\n\n            \nh3\n{\nthis\n.\nT\n(\npostsTitle\n)}\n/h3\n\n            \nul\n \nclassName\n=\nlist-group\n\n                \n{\nthis\n.\nrenderPosts\n()}\n\n            \n/ul\n\n        \n/div\n\n    \n);\n\n\n}\n\n\n\n\n\n\nthis.T\n - injected by Harmony Connect and let you easily display the current language by message id. \n\n\nThe following example will add support with new language France,\n\n\nCreate Locale by cli\n\n\n$ gulp localeCreator --locale fr\n\n\n\n\n\nThe following example will add a new i18n \njs\n file to desire container with to with language fr.\n\n\nCreate i18n by cli\n\n\n$ gulp i18nCreator --name MyContainerName --locale fr\n\n\n\n\n\ncreate your Locale manually\n\n\n1) Go to `/base/i18n/locale` and add your new local `js` file.\n2) Go to `/base/i18n/locale/index.js` and import your locale and add it to the message object.\n\n\n\n\n\ncreate your i18n manually\n\n\n1) Go to your desire component and add new folder (if not exist) with the name `i18n`.\n2) Inside the folder of part 1, add new js file call : `MyContainer.18n.myLocale.js`.\n3) Go to `/base/i18n/locale` and import your new i18n file to your desire local.", 
+            "title": "Generate Multilingual"
+        }, 
+        {
+            "location": "/extensions/client/multilingual/#multilingual", 
+            "text": "i18n give you easy way to support with languages and Encapsulate all you titles and static strings in your application \nto one place and easily to rename or change it.  If you are not familiar with  i18n  and you are not sure what is it please read :  i18n .  In Our boilerplate you can easly add and use i18n with scripts or manually. \nTo use i18n you need to crate a new Locale (if it is not english) and new i18n folder and file to your \ndesire container.  In  posts.18n.en.js  (for example) file you can to define your strings for the container.  The following code show the  posts.18n.en.js  inside the container, at  /i18n/", 
+            "title": "Multilingual"
+        }, 
+        {
+            "location": "/extensions/client/multilingual/#example-code-posts18nenjs", 
+            "text": "import   {   defineMessages   }   from   react-intl ;  const   messages   =   defineMessages ({ \n     postsTitle :   { \n         id :   posts.title ,   // Optional \n         defaultMessage :   Posts ,   // Mandatory \n         description :   Posts page title ,   // Optional \n     }, \n     addPost :   { \n         id :   posts.addPostHeader , \n         defaultMessage :   Add a post , \n         description :   add post button header , \n     }  });  export   default   messages ;   The following code show you how to use the messages inside your container.", 
+            "title": "Example Code posts.18n.en.js"
+        }, 
+        {
+            "location": "/extensions/client/multilingual/#example-code-container", 
+            "text": "render   ()   { \n     return   ( \n         div \n             div   className = text-xs-right \n                 Link   to = { POSTS_NEW }   className = btn btn-primary   \n                     { this . T ( addPost )} \n                 /Link \n             /div \n             h3 { this . T ( postsTitle )} /h3 \n             ul   className = list-group \n                 { this . renderPosts ()} \n             /ul \n         /div \n     );  }   this.T  - injected by Harmony Connect and let you easily display the current language by message id.   The following example will add support with new language France,", 
+            "title": "Example Code container"
+        }, 
+        {
+            "location": "/extensions/client/multilingual/#create-locale-by-cli", 
+            "text": "$ gulp localeCreator --locale fr  The following example will add a new i18n  js  file to desire container with to with language fr.", 
+            "title": "Create Locale by cli"
+        }, 
+        {
+            "location": "/extensions/client/multilingual/#create-i18n-by-cli", 
+            "text": "$ gulp i18nCreator --name MyContainerName --locale fr", 
+            "title": "Create i18n by cli"
+        }, 
+        {
+            "location": "/extensions/client/multilingual/#create-your-locale-manually", 
+            "text": "1) Go to `/base/i18n/locale` and add your new local `js` file.\n2) Go to `/base/i18n/locale/index.js` and import your locale and add it to the message object.", 
+            "title": "create your Locale manually"
+        }, 
+        {
+            "location": "/extensions/client/multilingual/#create-your-i18n-manually", 
+            "text": "1) Go to your desire component and add new folder (if not exist) with the name `i18n`.\n2) Inside the folder of part 1, add new js file call : `MyContainer.18n.myLocale.js`.\n3) Go to `/base/i18n/locale` and import your new i18n file to your desire local.", 
+            "title": "create your i18n manually"
+        }, 
+        {
+            "location": "/extensions/client/components/", 
+            "text": "Generate Components\n\n\nLocation\n: \nclient/components/\n\n\nComponents, not much to say, here your components \n( components/ )\n or in other words dump components, it means that the component is not connect to redux and relay only on props.\n\n\nWe recommended to use arrow function for better performance, But you can also use React Component.\n\n\n\n\nComponent Name\n\n\nCLI automatically inject Dmb_ prefix to your component. this best practice to use prefix name to components to recognize them inside containers.\n\n\n\n\nCreate Component by cli\n\n\n$ gulp createComponent --name MyComponent\n\n\n\n\n\nCreate Component manually\n\n\n    1) Go to \n`component/`\n folder and add your own component. add \n`Dmb_`\n prefix to the component name.", 
+            "title": "Generate Component"
+        }, 
+        {
+            "location": "/extensions/client/components/#generate-components", 
+            "text": "Location :  client/components/  Components, not much to say, here your components  ( components/ )  or in other words dump components, it means that the component is not connect to redux and relay only on props.  We recommended to use arrow function for better performance, But you can also use React Component.   Component Name  CLI automatically inject Dmb_ prefix to your component. this best practice to use prefix name to components to recognize them inside containers.", 
+            "title": "Generate Components"
+        }, 
+        {
+            "location": "/extensions/client/components/#create-component-by-cli", 
+            "text": "$ gulp createComponent --name MyComponent", 
+            "title": "Create Component by cli"
+        }, 
+        {
+            "location": "/extensions/client/components/#create-component-manually", 
+            "text": "1) Go to  `component/`  folder and add your own component. add  `Dmb_`  prefix to the component name.", 
+            "title": "Create Component manually"
+        }, 
+        {
+            "location": "/extensions/client/core_components/", 
+            "text": "Generate Core Components\n\n\nLocation\n: \nclient/components/\n\n\nCore Components Include your custom basic components that serve your application.\n\n\nFor example: myInput, myTextarea, myH1 etc.. Those components created by you and most the time wrap the basic html5 elements with your design and additional elements.\n\n\nAny core component is wrap with createField.\ncreateField convert your component to \nFiled\n from redux-form, this useful when you use your components inside Form Container.\n\n\nIf you use createField your component be able to get the follwoing data: \n\n\nmeta: { touched, error, warning }, input\n \n\nThis data provide you the information that send from Form Container and can serve you for validations and more...\n\n\n\n\nCore Component Name\n\n\nCLI automatically inject Cor_ prefix to your core component. this best practice to use prefix name to core components to recognize them inside containers.\n\n\n\n\nCreate Core Component by cli\n\n\n$ gulp createCoreComponent --name MyCoreComponent\n\n\n\n\n\nCreate Core Component manually\n\n\n    1) Add new folder with the component name to \n`( components/core/ )`\n.\n    2) Create \n`index.js`\n file. this is the place to write your component code.\n    3) Export your component path inside \n`( Components/core/index.js )`\n. add \n`Cor_`\n prefix to the component name.\n    4) Now you can import the component from core: \n`import { Input } from \n../../components/core\n;`\n\n\n\n\n\n\nExample Code\n\n\nimport\n \nPropTypes\n \nfrom\n \nprop-types\n;\n\n\nimport\n \n{\n \ncreateField\n \n}\n \nfrom\n \n../../../base/features/harmony-redux-form-field\n;\n\n\n\nconst\n \ncomponent\n \n=\n \n({\n \nmeta\n:\n \n{\n \ntouched\n,\n \nerror\n,\n \nwarning\n,\n \ninvalid\n \n},\n \ninput\n,\n \nlabel\n,\n \nT\n \n})\n \n=\n \n{\n\n\n    \nreturn\n \n(\n\n        \ndiv\n \nclassName\n=\n{\n`form-group \n${\ntouched\n \n \ninvalid\n \n?\n \nhas-danger\n:\n \n}\n`\n}\n\n            \nlabel\n{\nlabel\n}\n/label\n\n            \ndiv\n\n                \ntextarea\n \n{...\ninput\n}\n \nplaceholder\n=\n{\nlabel\n}\n \nclassName\n=\nform-control\n/\n\n                \ndiv\n \nstyle\n=\n{{\ncolor\n:\n#d9534f\n}}\n{\ntouched\n \n \nT\n(\nerror\n)}\n/div\n\n            \n/div\n\n        \n/div\n\n    \n);\n\n\n\n};\n\n\n\nexport\n \ndefault\n \ncreateField\n(\ncomponent\n,\n \n{\n\n    \nlabel\n:\n \nPropTypes\n.\nstring\n.\nisRequired\n,\n\n    \nT\n:\n \nPropTypes\n.\nfunc\n.\nisRequired\n\n\n});", 
+            "title": "Generate Core Component"
+        }, 
+        {
+            "location": "/extensions/client/core_components/#generate-core-components", 
+            "text": "Location :  client/components/  Core Components Include your custom basic components that serve your application.  For example: myInput, myTextarea, myH1 etc.. Those components created by you and most the time wrap the basic html5 elements with your design and additional elements.  Any core component is wrap with createField.\ncreateField convert your component to  Filed  from redux-form, this useful when you use your components inside Form Container.  If you use createField your component be able to get the follwoing data:   meta: { touched, error, warning }, input   \nThis data provide you the information that send from Form Container and can serve you for validations and more...   Core Component Name  CLI automatically inject Cor_ prefix to your core component. this best practice to use prefix name to core components to recognize them inside containers.", 
+            "title": "Generate Core Components"
+        }, 
+        {
+            "location": "/extensions/client/core_components/#create-core-component-by-cli", 
+            "text": "$ gulp createCoreComponent --name MyCoreComponent", 
+            "title": "Create Core Component by cli"
+        }, 
+        {
+            "location": "/extensions/client/core_components/#create-core-component-manually", 
+            "text": "1) Add new folder with the component name to  `( components/core/ )` .\n    2) Create  `index.js`  file. this is the place to write your component code.\n    3) Export your component path inside  `( Components/core/index.js )` . add  `Cor_`  prefix to the component name.\n    4) Now you can import the component from core:  `import { Input } from  ../../components/core ;`", 
+            "title": "Create Core Component manually"
+        }, 
+        {
+            "location": "/extensions/client/core_components/#example-code", 
+            "text": "import   PropTypes   from   prop-types ;  import   {   createField   }   from   ../../../base/features/harmony-redux-form-field ;  const   component   =   ({   meta :   {   touched ,   error ,   warning ,   invalid   },   input ,   label ,   T   })   =   { \n\n     return   ( \n         div   className = { `form-group  ${ touched     invalid   ?   has-danger :   } ` } \n             label { label } /label \n             div \n                 textarea   {... input }   placeholder = { label }   className = form-control / \n                 div   style = {{ color : #d9534f }} { touched     T ( error )} /div \n             /div \n         /div \n     );  };  export   default   createField ( component ,   { \n     label :   PropTypes . string . isRequired , \n     T :   PropTypes . func . isRequired  });", 
+            "title": "Example Code"
+        }, 
+        {
+            "location": "/extensions/client/containers/", 
+            "text": "Generate Core Components\n\n\nLocation\n: \nclient/containers/\n\n\nContainers is the components who is connected to redux. The flow data in the container is :\n\n\nwithout API call:\n\n\nContainer -\n Action -\n Reducer -\n Container\n\n\n\n\n\nwith API call :\n\n\nContainer -\n Action -\n Saga -\n Reducer -\n Container\n\n\n\n\n\n\n\nContainer \n\n\nCreating container with cli will create for you all the necessary files to reducers saga and actions.\n\nIf --name exist it will create the container .js file inside the existing folder.\n\n\n\n\nCreate Container by cli\n\n\n$ gulp createContainer --name myContainer --className myClassName --storeName myStoreName\n\n\n\n\n\nCreate Only Container by cli\n\n\nWithout action, saga and reducer\n\n\n$ gulp createContainerOnly --name myContainer --className myClassName\n\n\n\n\n\nCreate your Container manually\n\n\n    1) Go to containers folder and add a new \n`.js`\n file and connect him to \n`redux`\n like in the example.\n\n\n\n\n\nExample Code\n\n\n\n\nHarmony Connect\n\n\nAny Container connected to redux with \nharmonyConnect\n to enjoy all of Harmony features.\n\nRead more about \nHarmony Connect\n in \nBase Folder\n Section.\n\n\n\n\nimport\n \nReact\n,\n \n{\n \nComponent\n \n}\n \nfrom\n \nreact\n;\n\n\nimport\n \n{\n \nharmonyConnect\n \n}\n \nfrom\n \n../../base/features/harmony-redux-react-connect\n;\n\n\nimport\n \n{\n \nfetchPosts\n \n}\n \nfrom\n \n../../actions/posts/actions_posts\n;\n\n\nimport\n \n{\n \nLink\n \n}\n \nfrom\n \nreact-router\n;\n\n\nimport\n \n{\n \nPOSTS_NEW\n,\n \nPOSTS_SHOW\n \n}\n \nfrom\n \n../../routes\n;\n\n\n\nclass\n \nPostsIndex\n \nextends\n \nComponent\n \n{\n\n\n    \ncomponentWillMount\n()\n \n{\n\n\n        \nthis\n.\nprops\n.\nfetchPosts\n();\n\n\n    \n}\n\n\n    \nrenderPosts\n()\n \n{\n\n        \nif\n(\nthis\n.\nprops\n.\nposts\n)\n \n{\n\n            \nreturn\n \nthis\n.\nprops\n.\nposts\n.\nmap\n((\npost\n)\n \n=\n \n{\n\n                \nreturn\n \n(\n\n                    \nli\n \nclassName\n=\nlist-group-item\n \nkey\n=\n{\npost\n.\n_id\n}\n\n                        \nLink\n \nto\n=\n{\nPOSTS_SHOW\n \n+\n \npost\n.\n_id\n}\n\n                            \nspan\n \nclassName\n=\npull-xs-right\n{\npost\n.\ncategories\n}\n/span\n\n                            \nstrong\n{\npost\n.\ntitle\n}\n/strong\n\n                        \n/Link\n\n                    \n/li\n\n                \n);\n\n            \n});\n\n        \n}\n\n        \nelse\n \nif\n \n(\nthis\n.\nprops\n.\nmessage\n)\n \n{\n\n            \nreturn\n \n(\ndiv\n{\nthis\n.\nprops\n.\nmessage\n}\n/div\n);\n\n        \n}\n\n\n        \nelse\n \n{\n\n            \nreturn\n \ndiv\n/div\n\n        \n}\n\n    \n}\n\n\n    \nrender\n \n()\n \n{\n\n        \nreturn\n \n(\n\n            \ndiv\n\n                \ndiv\n \nclassName\n=\ntext-xs-right\n\n                    \nLink\n \nto\n=\n{\nPOSTS_NEW\n}\n \nclassName\n=\nbtn btn-primary\n \n\n                        \n{\nthis\n.\nT\n(\naddPost\n)}\n\n                    \n/Link\n\n                \n/div\n\n                \nh3\n{\nthis\n.\nT\n(\npostsTitle\n)}\n/h3\n\n                \nul\n \nclassName\n=\nlist-group\n\n                    \n{\nthis\n.\nrenderPosts\n()}\n\n                \n/ul\n\n            \n/div\n\n        \n);\n\n    \n}\n\n\n}\n\n\n\nexport\n \ndefault\n \nharmonyConnect\n(\nPostsIndex\n,\n\n    \n(\nstate\n)\n \n=\n \n{\n\n        \nreturn\n \n{\n\n            \nposts\n:\n \nstate\n.\nposts\n.\nget\n(\nall\n),\n\n            \nmessage\n:\n \nstate\n.\nposts\n.\nget\n(\nmessage\n)\n\n        \n}\n\n    \n},\n\n    \n{\n\n        \nfetchPosts\n\n    \n}\n\n\n);", 
+            "title": "Generate Container"
+        }, 
+        {
+            "location": "/extensions/client/containers/#generate-core-components", 
+            "text": "Location :  client/containers/  Containers is the components who is connected to redux. The flow data in the container is :  without API call:  Container -  Action -  Reducer -  Container  with API call :  Container -  Action -  Saga -  Reducer -  Container   Container   Creating container with cli will create for you all the necessary files to reducers saga and actions. \nIf --name exist it will create the container .js file inside the existing folder.", 
+            "title": "Generate Core Components"
+        }, 
+        {
+            "location": "/extensions/client/containers/#create-container-by-cli", 
+            "text": "$ gulp createContainer --name myContainer --className myClassName --storeName myStoreName", 
+            "title": "Create Container by cli"
+        }, 
+        {
+            "location": "/extensions/client/containers/#create-only-container-by-cli", 
+            "text": "Without action, saga and reducer  $ gulp createContainerOnly --name myContainer --className myClassName", 
+            "title": "Create Only Container by cli"
+        }, 
+        {
+            "location": "/extensions/client/containers/#create-your-container-manually", 
+            "text": "1) Go to containers folder and add a new  `.js`  file and connect him to  `redux`  like in the example.", 
+            "title": "Create your Container manually"
+        }, 
+        {
+            "location": "/extensions/client/containers/#example-code", 
+            "text": "Harmony Connect  Any Container connected to redux with  harmonyConnect  to enjoy all of Harmony features. \nRead more about  Harmony Connect  in  Base Folder  Section.   import   React ,   {   Component   }   from   react ;  import   {   harmonyConnect   }   from   ../../base/features/harmony-redux-react-connect ;  import   {   fetchPosts   }   from   ../../actions/posts/actions_posts ;  import   {   Link   }   from   react-router ;  import   {   POSTS_NEW ,   POSTS_SHOW   }   from   ../../routes ;  class   PostsIndex   extends   Component   { \n\n     componentWillMount ()   { \n\n         this . props . fetchPosts (); \n\n     } \n\n     renderPosts ()   { \n         if ( this . props . posts )   { \n             return   this . props . posts . map (( post )   =   { \n                 return   ( \n                     li   className = list-group-item   key = { post . _id } \n                         Link   to = { POSTS_SHOW   +   post . _id } \n                             span   className = pull-xs-right { post . categories } /span \n                             strong { post . title } /strong \n                         /Link \n                     /li \n                 ); \n             }); \n         } \n         else   if   ( this . props . message )   { \n             return   ( div { this . props . message } /div ); \n         } \n\n         else   { \n             return   div /div \n         } \n     } \n\n     render   ()   { \n         return   ( \n             div \n                 div   className = text-xs-right \n                     Link   to = { POSTS_NEW }   className = btn btn-primary   \n                         { this . T ( addPost )} \n                     /Link \n                 /div \n                 h3 { this . T ( postsTitle )} /h3 \n                 ul   className = list-group \n                     { this . renderPosts ()} \n                 /ul \n             /div \n         ); \n     }  }  export   default   harmonyConnect ( PostsIndex , \n     ( state )   =   { \n         return   { \n             posts :   state . posts . get ( all ), \n             message :   state . posts . get ( message ) \n         } \n     }, \n     { \n         fetchPosts \n     }  );", 
+            "title": "Example Code"
+        }, 
+        {
+            "location": "/extensions/client/form_containers/", 
+            "text": "Generate Form Containers\n\n\nForm Container is similar to regular container. The only one different is that Form Container is connected with \nconnectWithReduxForm\n.\n\nForm Container give you the control to display validations, error, warnings, clear form etc... with easy way.\n\nIt work with Core Components.\n\n\n\n\nContainer \n\n\nCreating form container with cli will create for you all the necessary files to reducers saga and actions.\n\nIf --name exist it will create the container .js file inside the existing folder.\n\n\n\n\nCreate Form Container by cli\n\n\n$ gulp createFormContainer --name myContainer --className myClassName --storeName myStoreName\n\n\n\n\n\nCreate Only Form Container by cli\n\n\nWithout action, saga and reducer\n\n\n$ gulp createFormContainerOnly --name myContainer --className myClassName\n\n\n\n\n\nCreate Container manually\n\n\n1\n)\n Go to form containers folder and add a new \n`\n.js\n`\n file and connect him to \n`\nconnectWithReduxForm\n`\n like in the example.\n\n\n\n\n\nExample Code\n\n\nimport\n \nReact\n,\n \n{\n \nComponent\n \n}\n \nfrom\n \nreact\n;\n\n\nimport\n \n{\n \nharmonyConnectForm\n \n}\n \nfrom\n \n../../base/features/harmony-redux-react-connect\n;\n\n\nimport\n \n*\n \nas\n \nactions\n \nfrom\n \n../../actions/posts/actions_posts\n;\n\n\n\nimport\n \n{\n \nLink\n \n}\n \nfrom\n \nreact-router\n;\n\n\nimport\n \n{\n \nPORTAL\n \n}\n \nfrom\n \n../../routes\n;\n\n\n\nimport\n \n{\n \nCor_Input\n,\n \nCor_Textarea\n \n}\n \nfrom\n \n../../components/core\n;\n\n\n\nclass\n \nPostsNew\n \nextends\n \nComponent\n \n{\n\n\n    \nrender\n()\n \n{\n\n\n        \nreturn\n \n(\n\n            \nform\n \nonSubmit\n=\n{\nthis\n.\nprops\n.\nhandleSubmit\n(\nthis\n.\nhandleSubmit\n.\nbind\n(\nthis\n))}\n \n\n\n                \nh3\n{\nthis\n.\nT\n(\ncreateNewPost\n)}\n/h3\n\n\n                \nCor_Input\n \nname\n=\ntitle\n \ntype\n=\ntext\n \nlabel\n=\n{\nthis\n.\nT\n(\ntitle\n)}\n \nT\n=\n{\nthis\n.\nT\n.\nbind\n(\nthis\n)}\n \n/\n\n                \nCor_Input\n \nname\n=\ncategories\n \ntype\n=\ntext\n \nlabel\n=\n{\nthis\n.\nT\n(\ncategories\n)}\n \nT\n=\n{\nthis\n.\nT\n.\nbind\n(\nthis\n)}\n \n/\n\n                \nCor_Textarea\n \nname\n=\ncontent\n \nlabel\n=\n{\nthis\n.\nT\n(\ncontent\n)}\n \nT\n=\n{\nthis\n.\nT\n.\nbind\n(\nthis\n)}\n \n/\n\n\n                \n{\nthis\n.\nprops\n.\nmessage\n \n||\n \n}\n\n                \nbr\n/\n\n\n                \nbutton\n \ntype\n=\nsubmit\n \nclassName\n=\nbtn btn-primary\n{\nthis\n.\nT\n(\nsubmit\n)}\n/button\n\n                \nLink\n \nto\n=\n{\nPORTAL\n}\n \nclassName\n=\nbtn btn-danger\n{\nthis\n.\nT\n(\ncancel\n)}\n/Link\n\n\n            \n/form\n\n        \n);\n\n\n    \n}\n\n\n    \nhandleSubmit\n(\nprops\n)\n \n{\n\n        \nthis\n.\nprops\n.\ncreatePost\n(\nprops\n);\n\n    \n}\n\n\n    \nvalidate\n(\nvalues\n)\n \n{\n\n        \nconst\n \nerrors\n \n=\n \n{};\n\n\n        \nif\n \n(\n!\nvalues\n.\ntitle\n)\n \n{\n\n            \nerrors\n.\ntitle\n \n=\n \ntitleError\n;\n\n        \n}\n\n\n        \nif\n \n(\n!\nvalues\n.\ncategories\n)\n \n{\n\n            \nerrors\n.\ncategories\n \n=\n \ncategoriesError\n;\n\n        \n}\n\n\n        \nif\n \n(\n!\nvalues\n.\ncontent\n)\n \n{\n\n            \nerrors\n.\ncontent\n \n=\n \ncontentError\n;\n\n        \n}\n\n\n        \nreturn\n \nerrors\n;\n\n    \n}\n\n\n}\n\n\n\n\nexport\n \ndefault\n \nharmonyConnectForm\n(\nPostsNew\n,\n\n    \n(\nstate\n)\n \n=\n \n{\n\n        \nreturn\n \n{\n\n            \nmessage\n:\n \nstate\n.\nposts\n.\nget\n(\nmessage\n)\n\n        \n}\n\n    \n},\n\n    \n{\n\n        \ncreatePost\n:\n \nactions\n.\ncreatePost\n,\n\n        \ninitializePosts\n:\n \nactions\n.\ninitializePosts\n\n    \n},\n\n    \n{\n\n        \nform\n \n:\n \nPostsNewForm\n,\n\n        \nfields\n:\n \n[\ntitle\n,\n \ncategories\n,\n \ncontent\n]\n\n    \n}\n\n\n);", 
+            "title": "Generate Form Container"
+        }, 
+        {
+            "location": "/extensions/client/form_containers/#generate-form-containers", 
+            "text": "Form Container is similar to regular container. The only one different is that Form Container is connected with  connectWithReduxForm . \nForm Container give you the control to display validations, error, warnings, clear form etc... with easy way. \nIt work with Core Components.   Container   Creating form container with cli will create for you all the necessary files to reducers saga and actions. \nIf --name exist it will create the container .js file inside the existing folder.", 
+            "title": "Generate Form Containers"
+        }, 
+        {
+            "location": "/extensions/client/form_containers/#create-form-container-by-cli", 
+            "text": "$ gulp createFormContainer --name myContainer --className myClassName --storeName myStoreName", 
+            "title": "Create Form Container by cli"
+        }, 
+        {
+            "location": "/extensions/client/form_containers/#create-only-form-container-by-cli", 
+            "text": "Without action, saga and reducer  $ gulp createFormContainerOnly --name myContainer --className myClassName", 
+            "title": "Create Only Form Container by cli"
+        }, 
+        {
+            "location": "/extensions/client/form_containers/#create-container-manually", 
+            "text": "1 )  Go to form containers folder and add a new  ` .js `  file and connect him to  ` connectWithReduxForm `  like in the example.", 
+            "title": "Create Container manually"
+        }, 
+        {
+            "location": "/extensions/client/form_containers/#example-code", 
+            "text": "import   React ,   {   Component   }   from   react ;  import   {   harmonyConnectForm   }   from   ../../base/features/harmony-redux-react-connect ;  import   *   as   actions   from   ../../actions/posts/actions_posts ;  import   {   Link   }   from   react-router ;  import   {   PORTAL   }   from   ../../routes ;  import   {   Cor_Input ,   Cor_Textarea   }   from   ../../components/core ;  class   PostsNew   extends   Component   { \n\n     render ()   { \n\n         return   ( \n             form   onSubmit = { this . props . handleSubmit ( this . handleSubmit . bind ( this ))}   \n\n                 h3 { this . T ( createNewPost )} /h3 \n\n                 Cor_Input   name = title   type = text   label = { this . T ( title )}   T = { this . T . bind ( this )}   / \n                 Cor_Input   name = categories   type = text   label = { this . T ( categories )}   T = { this . T . bind ( this )}   / \n                 Cor_Textarea   name = content   label = { this . T ( content )}   T = { this . T . bind ( this )}   / \n\n                 { this . props . message   ||   } \n                 br / \n\n                 button   type = submit   className = btn btn-primary { this . T ( submit )} /button \n                 Link   to = { PORTAL }   className = btn btn-danger { this . T ( cancel )} /Link \n\n             /form \n         ); \n\n     } \n\n     handleSubmit ( props )   { \n         this . props . createPost ( props ); \n     } \n\n     validate ( values )   { \n         const   errors   =   {}; \n\n         if   ( ! values . title )   { \n             errors . title   =   titleError ; \n         } \n\n         if   ( ! values . categories )   { \n             errors . categories   =   categoriesError ; \n         } \n\n         if   ( ! values . content )   { \n             errors . content   =   contentError ; \n         } \n\n         return   errors ; \n     }  }  export   default   harmonyConnectForm ( PostsNew , \n     ( state )   =   { \n         return   { \n             message :   state . posts . get ( message ) \n         } \n     }, \n     { \n         createPost :   actions . createPost , \n         initializePosts :   actions . initializePosts \n     }, \n     { \n         form   :   PostsNewForm , \n         fields :   [ title ,   categories ,   content ] \n     }  );", 
+            "title": "Example Code"
+        }, 
+        {
+            "location": "/extensions/client/sagas/", 
+            "text": "Generate Sagas\n\n\nLocation\n: \nclient/sagas/\n\n\nSagas is middleware between the Action and the Reducer when action need API call.\n\nIn our project we apply the sagas middleware only with 1 root index file.\n\n\nsagas/index.js\n is the root to all the sagas you right and inside the \nsagas/\n folder you add all the folders that\n\n\nCreate Saga by cli\n\n\n$ gulp createSagaFile --name mySaga\n\n\n\n\n\nCreate Saga manually\n\n\n1) Add new folder with the name of the saga inside `/sagas/` folder.\n2) Add new `.js` file with prefix `saga_` and then the name of the saga ( same name as the folder name )\n3) Export your saga from the file in stage 2.\n4) Combine your saga with the rest inside `sagas/index.js`\n\n\n\n\n\n\n\nSagas Name\n\n\ncli automatically inject \nsaga_\n prefix to your saga.\n\nWe also recommended to use same name to the actions.\n\nFor example saga_myName. (cli do it automatically when you create container with cli)\n\n\n\n\nExample Code \nindex.js\n\n\nimport\n \n{\ntakeLatest\n}\n \nfrom\n \nredux-saga/effects\n;\n\n\nimport\n \ncreateApi\n \nfrom\n \n../requests\n;\n\n\n\n/* ------------- Types ------------- */\n\n\n\nimport\n \n{\nTenantMatchTypes\n}\n \nfrom\n \n../redux/tenant-match\n;\n\n\nimport\n \n{\nUserTypes\n}\n \nfrom\n \n../redux/user\n;\n\n\n\n/* ------------- Sagas ------------- */\n\n\n\nimport\n \n*\n \nas\n \nsagaTenantMatch\n \nfrom\n \n./tenantMatch/saga_tenantMatch\n;\n\n\nimport\n \n*\n \nas\n \nsagasUser\n \nfrom\n \n./user/saga_user\n;\n\n\n\n\nconst\n \ninnorlate\n \n=\n \ncreateApi\n();\n\n\n\nexport\n \ndefault\n \nfunction\n*\n \n()\n \n{\n\n    \nyield\n \n[\n\n        \ntakeLatest\n(\nUserTypes\n.\nLOGIN\n,\n \nsagasUser\n.\nlogin\n,\n \ninnorlate\n),\n\n        \ntakeLatest\n(\nUserTypes\n.\nCREATE_USER\n,\n \nsagasUser\n.\ncreateUser\n,\n \ninnorlate\n),\n\n        \ntakeLatest\n(\nTenantMatchTypes\n.\nGET_TENANT_RESULTS\n,\n \nsagaTenantMatch\n.\ngetTenantSearchResults\n,\n \ninnorlate\n)\n\n    \n];\n\n\n}\n\n\n\n\n\n\n\n\nRedux Sagas\n\n\nFor more information, read on \nhttps://github.com/redux-saga/redux-saga\n \n\nWhat is takeLatest?\n\n(\nalias\n)\n \ntakeLatest\nany\n,\n \nany\n(\npattern\n:\n \nPattern\nany\n,\n \nworker\n:\n \nHelperFunc1\nany\n,\n \nany\n,\n \narg1\n:\n \nany\n)\n:\n \nForkEffect\n \n(\n+\n5\n \noverloads\n)\n\n\nimport\n \ntakeLatest\n\n\n\n\n\n\nAlternatively you may use takeLatest.\n\n\nDoes not allow concurrent fetches of user. If \"SOME_ACTION\" gets\ndispatched while a fetch is already pending, that pending fetch is cancelled\nand only the latest one will be run.\n\n\n\n\nExample Code \ntenant-match saga\n\n\nimport\n \n{\ncall\n,\n \nput\n}\n \nfrom\n \nredux-saga/effects\n;\n\n\nimport\n \nTenantMatchActions\n \nfrom\n \n../../redux/tenant-match\n;\n\n\n\nexport\n \nfunction\n*\n \ngetTenantSearchResults\n(\napi\n,\n \n/* action */\n)\n \n{\n\n    \ntry\n \n{\n\n        \nconst\n \nresponse\n \n=\n \nyield\n \ncall\n(\napi\n.\ngetTenantSearchResults\n);\n\n\n        \nyield\n \nput\n(\nTenantMatchActions\n.\ngetTenantResultsSuccess\n(\nresponse\n.\ndata\n.\ntenantsList\n));\n\n    \n}\n \ncatch\n \n(\ne\n)\n \n{\n\n        \n// Handle Error Here\n\n    \n}\n\n\n}", 
+            "title": "Generate Sagas"
+        }, 
+        {
+            "location": "/extensions/client/sagas/#generate-sagas", 
+            "text": "Location :  client/sagas/  Sagas is middleware between the Action and the Reducer when action need API call. \nIn our project we apply the sagas middleware only with 1 root index file.  sagas/index.js  is the root to all the sagas you right and inside the  sagas/  folder you add all the folders that", 
+            "title": "Generate Sagas"
+        }, 
+        {
+            "location": "/extensions/client/sagas/#create-saga-by-cli", 
+            "text": "$ gulp createSagaFile --name mySaga", 
+            "title": "Create Saga by cli"
+        }, 
+        {
+            "location": "/extensions/client/sagas/#create-saga-manually", 
+            "text": "1) Add new folder with the name of the saga inside `/sagas/` folder.\n2) Add new `.js` file with prefix `saga_` and then the name of the saga ( same name as the folder name )\n3) Export your saga from the file in stage 2.\n4) Combine your saga with the rest inside `sagas/index.js`   Sagas Name  cli automatically inject  saga_  prefix to your saga. \nWe also recommended to use same name to the actions. \nFor example saga_myName. (cli do it automatically when you create container with cli)", 
+            "title": "Create Saga manually"
+        }, 
+        {
+            "location": "/extensions/client/sagas/#example-code-indexjs", 
+            "text": "import   { takeLatest }   from   redux-saga/effects ;  import   createApi   from   ../requests ;  /* ------------- Types ------------- */  import   { TenantMatchTypes }   from   ../redux/tenant-match ;  import   { UserTypes }   from   ../redux/user ;  /* ------------- Sagas ------------- */  import   *   as   sagaTenantMatch   from   ./tenantMatch/saga_tenantMatch ;  import   *   as   sagasUser   from   ./user/saga_user ;  const   innorlate   =   createApi ();  export   default   function *   ()   { \n     yield   [ \n         takeLatest ( UserTypes . LOGIN ,   sagasUser . login ,   innorlate ), \n         takeLatest ( UserTypes . CREATE_USER ,   sagasUser . createUser ,   innorlate ), \n         takeLatest ( TenantMatchTypes . GET_TENANT_RESULTS ,   sagaTenantMatch . getTenantSearchResults ,   innorlate ) \n     ];  }    Redux Sagas  For more information, read on  https://github.com/redux-saga/redux-saga   \nWhat is takeLatest? ( alias )   takeLatest any ,   any ( pattern :   Pattern any ,   worker :   HelperFunc1 any ,   any ,   arg1 :   any ) :   ForkEffect   ( + 5   overloads )  import   takeLatest    Alternatively you may use takeLatest.  Does not allow concurrent fetches of user. If \"SOME_ACTION\" gets\ndispatched while a fetch is already pending, that pending fetch is cancelled\nand only the latest one will be run.", 
+            "title": "Example Code index.js"
+        }, 
+        {
+            "location": "/extensions/client/sagas/#example-code-tenant-match-saga", 
+            "text": "import   { call ,   put }   from   redux-saga/effects ;  import   TenantMatchActions   from   ../../redux/tenant-match ;  export   function *   getTenantSearchResults ( api ,   /* action */ )   { \n     try   { \n         const   response   =   yield   call ( api . getTenantSearchResults ); \n\n         yield   put ( TenantMatchActions . getTenantResultsSuccess ( response . data . tenantsList )); \n     }   catch   ( e )   { \n         // Handle Error Here \n     }  }", 
+            "title": "Example Code tenant-match saga"
+        }, 
+        {
+            "location": "/extensions/client/reducers/", 
+            "text": "Generate Reducer\n\n\nLocation\n: \nclient/redux/\n\n\nReducer is the place to manipulate your states \n( redux/ )\n.\nWe use \nimmutableJS\n to do that. This library have a crazy performance for change objects.\nI recommended you to learn how it work even if you are not going to use it.\n\n\nclient/redux/index.js\n - Here we combine our reducer to redux.\n\n\nCreate Reducer by cli\n\n\n$ gulp createRedux --name myReducer --storeName storeName --className myReducer\n\n\n\n\n\nCreate Reducer manually\n\n\n1) Add new folder with the name of the reducer inside \n`/redux/`\n folder.\n2) Add new .js file with name of the reducer ( same to the folder name )\n3) Export your reducer from the file in stage 2.\n4) Combine your reducer with the rest inside \n`redux/index.js`\n\n\n\n\n\n\nExample Code index.js\n\n\nimport\n \n{\ncombineReducers\n}\n \nfrom\n \nredux\n;\n\n\nimport\n \n{\nreducer\n \nas\n \nform\n}\n \nfrom\n \nredux-form\n;\n\n\nimport\n \ni18n\n \nfrom\n \n../base/features/base-i18n/reducers/reducer_i18n\n;\n\n\n\nconst\n \nrootReducer\n \n=\n \ncombineReducers\n({\n\n    \nstoreName\n:\n \nrequire\n(\n./myReducer\n).\nreducer\n,\n\n    \nposts\n:\n \nrequire\n(\n./posts\n).\nreducer\n,\n\n    \nusers\n:\n \nrequire\n(\n./users\n).\nreducer\n,\n\n\n    \ni18n\n:\n \ni18n\n,\n\n    \nform\n:\n \nform\n,\n\n\n});\n\n\n\nexport\n \ndefault\n \nrootReducer\n;\n\n\n\n\n\n\nExample Code reducer_myReducer\n\n\nimport\n \nImmutable\n \nfrom\n \nseamless-immutable\n;\n\n\nimport\n \n{\n \ncreateReducer\n,\n \ncreateActions\n \n}\n \nfrom\n \nreduxsauce\n;\n\n\n\n/* ------------- Types and Action Creators ------------- */\n\n\n\nconst\n \n{\n \nTypes\n,\n \nCreators\n \n}\n \n=\n \ncreateActions\n({\n\n    \nmyAction\n:\n \n[\ndata\n]\n\n\n});\n\n\n\nexport\n \nconst\n \nmyReducerTypes\n \n=\n \nTypes\n;\n\n\nexport\n \ndefault\n \nCreators\n;\n\n\n\n/* ------------- Initial State ------------- */\n\n\n\nconst\n \nINITIAL_STATE\n \n=\n \nImmutable\n({\n\n\n\n});\n\n\n\n/* ------------- Selectors ------------- */\n\n\n\nexport\n \nconst\n \nmyReducerSelector\n \n=\n \n{\n\n\n\n};\n\n\n\n/* ------------- Reducers ------------- */\n\n\n\n/* EXAMPLE\n\n\n    const myReducer = (state, action ) =\n {\n\n\n        const { data } = action;\n\n\n        return state.merge({ data });\n\n\n    };\n\n\n*/\n\n\n\n/* ------------- Hookup Reducers To Types ------------- */\n\n\n\nexport\n \nconst\n \nreducer\n \n=\n \ncreateReducer\n(\nINITIAL_STATE\n,\n \n{\n\n    \n/* EXAMPLE\n\n\n        [Types.MY_ACTION]: myReducer\n\n\n    */\n\n\n});", 
+            "title": "Generate Reducers"
+        }, 
+        {
+            "location": "/extensions/client/reducers/#generate-reducer", 
+            "text": "Location :  client/redux/  Reducer is the place to manipulate your states  ( redux/ ) .\nWe use  immutableJS  to do that. This library have a crazy performance for change objects.\nI recommended you to learn how it work even if you are not going to use it.  client/redux/index.js  - Here we combine our reducer to redux.", 
+            "title": "Generate Reducer"
+        }, 
+        {
+            "location": "/extensions/client/reducers/#create-reducer-by-cli", 
+            "text": "$ gulp createRedux --name myReducer --storeName storeName --className myReducer", 
+            "title": "Create Reducer by cli"
+        }, 
+        {
+            "location": "/extensions/client/reducers/#create-reducer-manually", 
+            "text": "1) Add new folder with the name of the reducer inside  `/redux/`  folder.\n2) Add new .js file with name of the reducer ( same to the folder name )\n3) Export your reducer from the file in stage 2.\n4) Combine your reducer with the rest inside  `redux/index.js`", 
+            "title": "Create Reducer manually"
+        }, 
+        {
+            "location": "/extensions/client/reducers/#example-code-indexjs", 
+            "text": "import   { combineReducers }   from   redux ;  import   { reducer   as   form }   from   redux-form ;  import   i18n   from   ../base/features/base-i18n/reducers/reducer_i18n ;  const   rootReducer   =   combineReducers ({ \n     storeName :   require ( ./myReducer ). reducer , \n     posts :   require ( ./posts ). reducer , \n     users :   require ( ./users ). reducer , \n\n     i18n :   i18n , \n     form :   form ,  });  export   default   rootReducer ;", 
+            "title": "Example Code index.js"
+        }, 
+        {
+            "location": "/extensions/client/reducers/#example-code-reducer_myreducer", 
+            "text": "import   Immutable   from   seamless-immutable ;  import   {   createReducer ,   createActions   }   from   reduxsauce ;  /* ------------- Types and Action Creators ------------- */  const   {   Types ,   Creators   }   =   createActions ({ \n     myAction :   [ data ]  });  export   const   myReducerTypes   =   Types ;  export   default   Creators ;  /* ------------- Initial State ------------- */  const   INITIAL_STATE   =   Immutable ({  });  /* ------------- Selectors ------------- */  export   const   myReducerSelector   =   {  };  /* ------------- Reducers ------------- */  /* EXAMPLE      const myReducer = (state, action ) =  {          const { data } = action;          return state.merge({ data });      };  */  /* ------------- Hookup Reducers To Types ------------- */  export   const   reducer   =   createReducer ( INITIAL_STATE ,   { \n     /* EXAMPLE          [Types.MY_ACTION]: myReducer      */  });", 
+            "title": "Example Code reducer_myReducer"
+        }, 
+        {
+            "location": "/release-notes/", 
+            "text": "Release notes\n\n\nUpgrading\n\n\nTo upgrade harmony-boilerplate to the latest version, use npm:\n\n\nnpm update generator-harmony-boilerplate -g", 
+            "title": "Release notes"
+        }, 
+        {
+            "location": "/release-notes/#release-notes", 
+            "text": "", 
+            "title": "Release notes"
+        }, 
+        {
+            "location": "/release-notes/#upgrading", 
+            "text": "To upgrade harmony-boilerplate to the latest version, use npm:  npm update generator-harmony-boilerplate -g", 
+            "title": "Upgrading"
+        }, 
+        {
+            "location": "/contributing/", 
+            "text": "Contributing\n\n\nInterested in contributing to the harmony boilerplate? Want to report a bug? Before\nyou do, please read the following guidelines.\n\n\nSubmission context\n\n\nFound a bug?\n\n\nIf you found a bug in the source code, you can help us by submitting an issue\nto the \nissue tracker\n in our GitHub repository. Even better, you can submit\na Pull Request with a fix. However, before doing so, please read the\n\nsubmission guidelines\n.\n\n\nMissing a feature?\n\n\nYou can request a new feature by submitting an issue to our GitHub Repository.\nIf you would like to implement a new feature, please submit an issue with a\nproposal for your work first, to be sure that it is of use for everyone, as\nthe Material theme is highly opinionated. Please consider what kind of change\nit is:\n\n\n\n\n\n\nFor a \nmajor feature\n, first open an issue and outline your proposal so\n  that it can be discussed. This will also allow us to better coordinate our\n  efforts, prevent duplication of work, and help you to craft the change so\n  that it is successfully accepted into the project.\n\n\n\n\n\n\nSmall features and bugs\n can be crafted and directly submitted as a Pull\n  Request. However, there is no guarantee that your feature will make it into\n  the master, as it's always a matter of opinion whether if benefits the\n  overall functionality of the theme.\n\n\n\n\n\n\nSubmission guidelines\n\n\nSubmitting an issue\n\n\nBefore you submit an issue, please search the issue tracker, maybe an issue for\nyour problem already exists and the discussion might inform you of workarounds\nreadily available.\n\n\nWe want to fix all the issues as soon as possible, but before fixing a bug we\nneed to reproduce and confirm it. In order to reproduce bugs we will\nsystematically ask you to provide a minimal reproduction scenario using the\ncustom issue template. Please stick to the issue template.\n\n\nUnfortunately we are not able to investigate / fix bugs without a minimal\nreproduction scenario, so if we don't hear back from you we may close the issue.\n\n\nSubmitting a Pull Request (PR)\n\n\nSearch GitHub for an open or closed PR that relates to your submission. You\ndon't want to duplicate effort. If you do not find a related issue or PR,\ngo ahead.\n\n\n\n\n\n\nDevelopment\n: Fork the project, set up development environment,\n  make your changes in a separate git branch and add descriptive messages to\n  your commits.\n\n\n\n\n\n\nBuild\n: Before submitting a pull requests, build the boilerplate ( dev and prod ). This is a\n  mandatory requirement for your PR to get accepted, as the boilerplate should at\n  all times be installable through GitHub.\n\n\n\n\n\n\nPull Request\n: After building the boilerplate, commit the changes, push\n  your branch to GitHub and send a PR to \nharmony-boilerplate:master\n. If we\n  suggest changes, make the required updates, rebase your branch and push the\n  changes to your GitHub repository, which will automatically update your PR.\n\n\n\n\n\n\nAfter your PR is merged, you can safely delete your branch and pull the changes\nfrom the main (upstream) repository.", 
+            "title": "Contributing"
+        }, 
+        {
+            "location": "/contributing/#contributing", 
+            "text": "Interested in contributing to the harmony boilerplate? Want to report a bug? Before\nyou do, please read the following guidelines.", 
+            "title": "Contributing"
+        }, 
+        {
+            "location": "/contributing/#submission-context", 
+            "text": "", 
+            "title": "Submission context"
+        }, 
+        {
+            "location": "/contributing/#found-a-bug", 
+            "text": "If you found a bug in the source code, you can help us by submitting an issue\nto the  issue tracker  in our GitHub repository. Even better, you can submit\na Pull Request with a fix. However, before doing so, please read the submission guidelines .", 
+            "title": "Found a bug?"
+        }, 
+        {
+            "location": "/contributing/#missing-a-feature", 
+            "text": "You can request a new feature by submitting an issue to our GitHub Repository.\nIf you would like to implement a new feature, please submit an issue with a\nproposal for your work first, to be sure that it is of use for everyone, as\nthe Material theme is highly opinionated. Please consider what kind of change\nit is:    For a  major feature , first open an issue and outline your proposal so\n  that it can be discussed. This will also allow us to better coordinate our\n  efforts, prevent duplication of work, and help you to craft the change so\n  that it is successfully accepted into the project.    Small features and bugs  can be crafted and directly submitted as a Pull\n  Request. However, there is no guarantee that your feature will make it into\n  the master, as it's always a matter of opinion whether if benefits the\n  overall functionality of the theme.", 
+            "title": "Missing a feature?"
+        }, 
+        {
+            "location": "/contributing/#submission-guidelines", 
+            "text": "", 
+            "title": "Submission guidelines"
+        }, 
+        {
+            "location": "/contributing/#submitting-an-issue", 
+            "text": "Before you submit an issue, please search the issue tracker, maybe an issue for\nyour problem already exists and the discussion might inform you of workarounds\nreadily available.  We want to fix all the issues as soon as possible, but before fixing a bug we\nneed to reproduce and confirm it. In order to reproduce bugs we will\nsystematically ask you to provide a minimal reproduction scenario using the\ncustom issue template. Please stick to the issue template.  Unfortunately we are not able to investigate / fix bugs without a minimal\nreproduction scenario, so if we don't hear back from you we may close the issue.", 
+            "title": "Submitting an issue"
+        }, 
+        {
+            "location": "/contributing/#submitting-a-pull-request-pr", 
+            "text": "Search GitHub for an open or closed PR that relates to your submission. You\ndon't want to duplicate effort. If you do not find a related issue or PR,\ngo ahead.    Development : Fork the project, set up development environment,\n  make your changes in a separate git branch and add descriptive messages to\n  your commits.    Build : Before submitting a pull requests, build the boilerplate ( dev and prod ). This is a\n  mandatory requirement for your PR to get accepted, as the boilerplate should at\n  all times be installable through GitHub.    Pull Request : After building the boilerplate, commit the changes, push\n  your branch to GitHub and send a PR to  harmony-boilerplate:master . If we\n  suggest changes, make the required updates, rebase your branch and push the\n  changes to your GitHub repository, which will automatically update your PR.    After your PR is merged, you can safely delete your branch and pull the changes\nfrom the main (upstream) repository.", 
+            "title": "Submitting a Pull Request (PR)"
+        }, 
+        {
+            "location": "/license/", 
+            "text": "License\n\n\nMIT License\n\n\nCopyright \n 2017 - 2018 Harmony Framework\n\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to\ndeal in the Software without restriction, including without limitation the\nrights to use, copy, modify, merge, publish, distribute, sublicense, and/or\nsell copies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS\nIN THE SOFTWARE.\n\n\n\n\nNote - the copy right thing is only if there is copy right comment block in the code, there is no need to mention us or give any attribution.", 
+            "title": "License"
+        }, 
+        {
+            "location": "/license/#license", 
+            "text": "MIT License  Copyright   2017 - 2018 Harmony Framework  Permission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to\ndeal in the Software without restriction, including without limitation the\nrights to use, copy, modify, merge, publish, distribute, sublicense, and/or\nsell copies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS\nIN THE SOFTWARE.   Note - the copy right thing is only if there is copy right comment block in the code, there is no need to mention us or give any attribution.", 
+            "title": "License"
+        }, 
+        {
+            "location": "/team/", 
+            "text": "Harmony Team\n\n\n\n    \n\n        \n\n            \n\n            \nOfir Attia\n\n        \n\n    \n\n    \n\n        \n\n            \n\n            \nRefael Oknin", 
+            "title": "Harmony Team"
+        }, 
+        {
+            "location": "/team/#harmony-team", 
+            "text": "", 
+            "title": "Harmony Team"
+        }
+    ]
+}
