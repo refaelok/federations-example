@@ -125,15 +125,7 @@ module.exports = merge({
 		],
 	},
 	plugins,
-	optimization:  {
-		minimize: true,
-		removeAvailableModules: true,
-		flagIncludedChunks: true,
-		chunkIds: 'named',
-		usedExports: true,
-		concatenateModules: true,
-		sideEffects: false,
-	},
+	optimization:  undefined,
 	performance: {
 		hints: 'error',
 		maxAssetSize: Infinity,
