@@ -57,17 +57,13 @@ let plugins = [
 		exposes: {
 			'./Checkout': './src/pages/Checkout'
 		},
-		shared: {
-			...deps,
-			react: {
-				singleton: true,
-				requiredVersion: deps.react,
-			},
-			"react-dom": {
-				singleton: true,
-				requiredVersion: deps["react-dom"],
-			},
-		}
+		shared: [
+			'react',
+			'react-dom',
+			'react-router',
+			'react-router-dom',
+			'./src/pages/Checkout'
+		]
 	})
 ];
 
